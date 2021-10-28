@@ -25,7 +25,7 @@
         p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto software, pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el core de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de streaming, la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 1] #[br] #[i Representación de la arquitectura por capas]
-    figure.mb-5(data-aos="flip-up")
+    figure.mb-5(data-aos="flip-up") 
       img.img-a(src='@/assets/curso/tema_1/img_2.svg', alt='Texto que describa la imagen')
       figcaption Nota. Adaptada de Programadorclic (s.f.)
 
@@ -89,7 +89,7 @@
 
       h4.mb-5 Representación de arquitectura por capas
 
-      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_02")
+      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_02")(data-aos="flip-up")
         .row.justify-content-center(titulo="Capa de presentación")
           .col-md-4.mb-4.mb-md-0
             .bg_03.p-4
@@ -117,7 +117,7 @@
           .col-md-4.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
 
-      .row.mb-5
+      .row.mb-5(data-aos="flip-up")
         .col-lg-6.mb-4.mb-lg-0(data-aos="slide-left")
           .bg_04.p-4
             ul.lista-ul--color
@@ -143,7 +143,7 @@
         p.mb-0 Estas arquitecturas se organizan de forma horizontal por lo que la comunicación entre ellas debe ser de una capa superior a una inferior
  
 
-    .bg_01.p-5.mb-5
+    .bg_01.p-5.mb-5(data-aos="flip-up")
       h3.mb-5 Arquitectura monolítica: 
 
       .tarjeta.bg_04.p-4.mb-5
@@ -171,7 +171,7 @@
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
             figcaption.mb-4 Nota. Adaptada de Blancarte (2020)
 
-    .bg_01.p-5.mb-5
+    .bg_01.p-5.mb-5(data-aos="flip-up")
       h3.mb-5 Arquitectura orientada a servicios (SOA): 
       .tarjeta.bg_04.p-4.mb-5
         SlyderA
@@ -197,7 +197,7 @@
             h4.text-center.mb-5 Representación de arquitectura orientada a servicios (SOA)
             img.img-a.mb-4(src='@/assets/curso/tema_1/img_17.png', alt='Texto que describa la imagen')
 
-    .bg_01.p-5.mb-5
+    .bg_01.p-5.mb-5(data-aos="flip-up")
       h3.mb-5 Arquitectura de microservicios (MSI): 
       .tarjeta.bg_04.p-4.mb-5
         SlyderA
@@ -231,9 +231,237 @@
     p.mb-5(data-aos="slide-right") Es importante destacar la diferencia entre las arquitecturas tradicionales y las modernas, de las cuales nos encontramos con la monolítica y la orientada a microservicios. En la siguiente figura, se puede observar que mientras el primer apartado gráfico indica que todos los componentes de software están inmersos en un solo componente y realizar un cambio suele ser un proceso crítico que se realiza 1 a 2 veces por año, la segunda parte presenta la segregación y distribución de funcionalidades de tal manera que corregir o crear nuevas funcionalidades es sencillo sin repercutir en generar caos al desplegar una nueva funcionalidad o mejora, esto permite que haya un despliegue continuo. Para describir un poco mejor las diferencias entre las dos vertientes se presenta la siguiente figura:
 
     p.BorTit(data-aos="flip-up") #[strong Figura 2] #[br] #[i Arquitectura monolítica vs arquitectura orientada a microservicios]
-    figure(data-aos="flip-up")
+    figure.mb-5(data-aos="flip-up")
       img.img-a.mb-3(src='@/assets/curso/tema_1/img_22.png', alt='Texto que describa la imagen')
       figcaption Nota. Adaptado de Decide Soluciones (2019)
+
+    .bg_01.p-5.mb-5(data-aos="flip-up")
+      h3.mb-5 Arquitectura orientada a eventos (EDA):
+      .tarjeta.bg_04.p-4.mb-5
+        SlyderA
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Esta arquitectura se basa en la captura, transferencia, procesamiento y permanencia de eventos, donde estos son la estructura base de este tipo de soluciones. Esto es totalmente contrario a los métodos tradicionales, los cuales están basados en solicitudes. 
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_23.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Un evento representa los acontecimientos importantes en el estado del hardware o software directamente en un sistema o producto software, los cuales pueden ser internos o externos. Esta solución permite un acoplamiento mínimo, lo cual es la opción indicada refiriéndonos a las aplicaciones distribuidas y modernas.
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_24.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Se pueden encontrar dos tipos de elementos importantes: los consumidores y los productores de eventos. 
+
+              p Como su nombre lo indica el productor genera o emite los eventos, en su contraparte el consumidor los recibe y los interpreta de tal manera que pueda efectuar alguna acción con base en ellos.
+
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_25.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p En este caso el consumidor de los eventos no conoce el productor y ni el productor no conoce el consumidor, ni el resultado obtenido por efectuar alguna acción resultado de procesar la información del evento.
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_26.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Es así como el consumidor después de la recepción de un evento procesa la información de manera asíncrona con algún módulo, componente o plataforma de procesamiento.
+
+              p En la mayor parte de implementaciones orientadas a eventos, se basan en el modelo de publicación / suscripción.
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            h4.text-center.mb-5 Representación de Arquitectura Orientada a Eventos (EDA):
+            img.img-a.mb-2(src='@/assets/curso/tema_1/img_28.png', alt='Texto que describa la imagen')
+            figcaption.mb-3 Nota. Adaptado de Tovar Casallas (2016)
+
+            p En la figura se pueden observar los diferentes productores, los cuales emiten eventos que son distribuidos por un canal, que a su vez son enviados a los suscriptores/consumidores que estén atentos al tópico del evento.
+
+    .bg_01.p-5.mb-5(data-aos="flip-up")
+      h3.mb-5 Arquitectura cliente-servidor: 
+      .tarjeta.bg_04.p-4.mb-5
+        SlyderA
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Es un modelo de software en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Un cliente realiza peticiones al servidor, quien da respuesta y es procesada para mostrar información al usuario-actor del sistema.
+            .col-md-4
+              figure
+                img.img-a(src='@/assets/curso/tema_1/img_30.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            h4.text-center.mb-5 Representación de Arquitectura cliente-servidor:
+            img.img-a.mb-2(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
+            figcaption.mb-3 Adaptado de CursosGratis (2021)
+            p La separación entre cliente y servidor es del tipo lógico, donde el servidor no se ejecuta necesariamente en una sola máquina o ambiente, ni necesariamente es un solo programa.
+
+    separador
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      .h2 1.2 Patrones de diseño 
+
+    p Los patrones son procesos, métodos y técnicas comunes que se utilizan en el proceso de desarrollo de software entre otros elementos que están directamente relacionados con el diseño de interfaces y soluciones desde el diseño. Para que una solución sea considerada como patrón deben cumplir diferentes particularidades, una de ellas es poderse aplicar afectivamente en otras soluciones, en pocas palabras debe ser reutilizable. 
+
+    p.mb-5
+      strong Los patrones de diseño buscan lo siguiente:
+
+    
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Texto que describa la imagen')
+      .tarjeta.tar_bg01.p-3(x="8%" y="56%")
+        p #[strong 1.] Proporcionar lista de los componentes reusables en el diseño de software.
+      .tarjeta.tar_bg02.p-3(x="31%" y="56%")
+        p #[strong 2.] Evitar la reiteración en el planteamiento de soluciones a problemas conocidos previamente y que por medio de un patrón se pueden solucionar. 
+      .tarjeta.tar_bg03.p-3(x="51%" y="56%")
+        p #[strong 3.] Estandarizar y formalizar el vocabulario común entre diseñadores y desarrolladores.
+      .tarjeta.tar_bg04.p-3(x="72%" y="56%")
+        p #[strong 4.] Normalizar y estandarizar los métodos para diseñar soluciones. 
+      .tarjeta.tar_bg05.p-3(x="94%" y="56%")
+        p #[strong 5.] Mejorar el aprendizaje de nuevos ingenieros, diseñadores o desarrolladores, con prácticas y transferencia de conocimientos que ha sido aplicada correctamente.
+
+    .cajon.color-secundario.p-4.mb-5
+      h5 Los patrones de diseño no pretenden:
+
+      ul.lista-ul--color
+        li 
+          i.fas.fa-check
+          | #[strong Imponer una alternativa de solución ante otra.]
+        li 
+          i.fas.fa-check
+          | #[strong Eliminar o limitar la creatividad inherente ante el proceso de diseño de soluciones.] 
+
+      p.mb-0 El usar patrones de diseño no es obligatorio, pero es aconsejable, dado ayuda diseños cumplieron con el objetivo de solucionar algún problema similar; sin embargo, en casos particulares los patrones no pueden ser aplicables y forzar o abusar del uso de patrones puede ser un error. 
+
+    p.mb-5 #[strong Según la escala y el nivel de abstracción podemos encontrar los siguientes tipos:]
+
+    .tarjeta.bg_04.p-4.mb-5
+      SlyderA
+        .row.align-items-center.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            p Es un modelo de software en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
+          .col-md-4
+            figure
+              img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que describa la imagen')
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
+      .row.justify-content-center(titulo="Patrones creacionales")
+        p.mb-5 Estos patrones corresponden a los que solucionan problemas de creación de instancias.  Consisten en encapsular y abstraer dicha creación, entre ellos se pueden nombrar:
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul--color1
+            li 
+              i.fas.fa-check
+              | Object Pool
+            li 
+              i.fas.fa-check
+              | Abstract Factory
+            li 
+              i.fas.fa-check
+              | Builder
+            li 
+              i.fas.fa-check
+              | Factory Method
+            li 
+              i.fas.fa-check
+              | Prototype
+            li 
+              i.fas.fa-check
+              | Singleton
+
+        .col-md-6
+          img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Texto que describa la imagen')
+      .row.justify-content-center(titulo="Patrones estructurales")
+        p.mb-5 Estos patrones corresponden a los que solucionan problemas de composición (agregación) de clases y objetos, entre los cuales se encuentran: 
+        .col-md-6.mb-4.mb-md-0
+          .row
+            .col-lg-6.mb-4.mb-md-0
+              ul.lista-ul--color1
+                li 
+                  i.fas.fa-check
+                  | Adapter o Wrapper
+                li 
+                  i.fas.fa-check
+                  | Bridge
+                li 
+                  i.fas.fa-check
+                  | Composite
+                li 
+                  i.fas.fa-check
+                  | Decorator
+                li 
+                  i.fas.fa-check
+                  | Facade
+            .col-lg-6.mb-4.mb-md-0
+              ul.lista-ul--color1
+                li 
+                  i.fas.fa-check
+                  | Flyweight
+                li 
+                  i.fas.fa-check
+                  | Proxy
+                li 
+                  i.fas.fa-check
+                  | Module
+                li 
+                  i.fas.fa-check
+                  | MVC
+        .col-md-6
+          img.img-a(src='@/assets/curso/tema_1/img_34.png', alt='Texto que describa la imagen')
+      .row.justify-content-center(titulo="Patrones estructurales")
+        p.mb-5 Estos patrones corresponden a los que solucionan problemas de comportamiento respecto a la interacción y responsabilidades entre clases y objetos, así como los algoritmos que encapsulan, entre los cuales se encuentran: 
+        .col-md-6.mb-4.mb-md-0
+          .row
+            .col-lg-6.mb-4.mb-md-0
+              ul.lista-ul--color1
+                li 
+                  i.fas.fa-check
+                  | Chain of Responsibility
+                li 
+                  i.fas.fa-check
+                  | Command
+                li 
+                  i.fas.fa-check
+                  | Interpreter
+                li 
+                  i.fas.fa-check
+                  | Iterator
+                li 
+                  i.fas.fa-check
+                  | Mediator
+            .col-lg-6.mb-4.mb-md-0
+              ul.lista-ul--color1
+                li 
+                  i.fas.fa-check
+                  | Memento
+                li 
+                  i.fas.fa-check
+                  | Observer
+                li 
+                  i.fas.fa-check
+                  | State
+                li 
+                  i.fas.fa-check
+                  | Strategy
+                li 
+                  i.fas.fa-check
+                  | Template Method 
+                li 
+                  i.fas.fa-check
+                  | Visitor
+        .col-md-6
+          img.img-a(src='@/assets/curso/tema_1/img_35.png', alt='Texto que describa la imagen')
+
+      
+
+
 
 
 
