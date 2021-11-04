@@ -42,7 +42,7 @@
     #t_2_1.titulo-segundo(data-aos="flip-up")
       .h2 2.1. Conceptos y características
 
-    p.mb-5(data-aos="flip-up") La arquitectura web es el ordenamiento y jerarquización del contenido de un sitio web, en el cual se trabaja bajo los estándares de los sitios web y las categorías que conforman la optimización y cara al posicionamiento en los buscadores, interacción y experiencia de usuarios (UX). El objetivo es resolver las necesidades del cliente, que posiblemente necesite o busque un producto software online y se dé respuesta por medio de una implementación web. 
+    p.mb-5(data-aos="flip-up") La arquitectura web es el ordenamiento y jerarquización del contenido de un sitio web, en el cual se trabaja bajo los estándares de los sitios web y las categorías que conforman la optimización y cara al posicionamiento en los buscadores, interacción y experiencia de usuarios (UX). El objetivo es resolver las necesidades del cliente, que posiblemente necesite o busque un producto #[i software] online y se dé respuesta por medio de una implementación web. 
 
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -55,11 +55,11 @@
 
     .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
       .cajon-b.color-primario
-        p #[strong Arquitectura de aplicación o arquitectura de software:] en la arquitectura de aplicación se pueden encontrar métodos, técnicas, diseños y patrones para desarrollar un producto software, la cual provee una guía y una serie de prácticas recomendadas para construir un producto software, de tal modo que se obtenga una solución bien estructurada y siguiendo estándares. 
+        p #[strong Arquitectura de aplicación o arquitectura de #[i software]:] en la arquitectura de aplicación se pueden encontrar métodos, técnicas, diseños y patrones para desarrollar un producto #[i software], la cual provee una guía y una serie de prácticas recomendadas para construir un producto #[i software], de tal modo que se obtenga una solución bien estructurada y siguiendo estándares. 
 
     .row.mb-5(data-aos="flip-up")
       .col-lg-6
-        p En un producto software se puede encontrar diferentes tipos de soluciones, como por ejemplo una 
+        p En un producto #[i software] se puede encontrar diferentes tipos de soluciones, como por ejemplo una 
           strong solución #[i front-end] o una solución #[i back-end]. 
 
     .row.justify-content-center.mb-5
@@ -77,13 +77,13 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_2.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h3.text-center #[i Back-end] 
-              p Hace referencia al desarrollo del producto software que no está en el lado del cliente, es el software que está alojado en los servidores de una empresa o en la nube, en esta parte del desarrollo incluye el acceso a datos, los servicios y todo lo relacionado con infraestructura para que todo esté operativo. 
+              p Hace referencia al desarrollo del producto #[i software] que no está en el lado del cliente, es el #[i software] que está alojado en los servidores de una empresa o en la nube, en esta parte del desarrollo incluye el acceso a datos, los servicios y todo lo relacionado con infraestructura para que todo esté operativo. 
 
     p.mb-5(data-aos="flip-up") La arquitectura es un punto de partida que permite tomar decisiones de desarrollo, como por ejemplo el tipo de estructura, el lenguaje de programación y la infraestructura que se deberá tener en cuenta para su despliegue. En la actualidad se cuenta con diferentes lenguajes de programación, entre los cuales encontramos Swift, Kotlin, JavaScript, Java, Python, Php, entre otros, los cuales son usados para un tipo de programación en específico. 
 
     .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
       .cajon-b.color-primario
-        p #[strong Desarrollo Frontend:] se puede traducir como frente o fachada final, esta vertiente del desarrollo de software es una especialidad para el desarrollo web y concentra lo que se define como interfaz de usuario (GUI - Graphical User Interface), esta es la parte del sitio web con la cual los usuarios interactúan y este se despliega del lado del cliente; está orientado al lenguaje de marcas o etiquetas, todo lo visual de un sitio web, tamaños, colores, formas, formatos y renderizado de información al usuario. 
+        p #[strong Desarrollo Frontend:] se puede traducir como frente o fachada final, esta vertiente del desarrollo de #[i software] es una especialidad para el desarrollo web y concentra lo que se define como interfaz de usuario (GUI - Graphical User Interface), esta es la parte del sitio web con la cual los usuarios interactúan y este se despliega del lado del cliente; está orientado al lenguaje de marcas o etiquetas, todo lo visual de un sitio web, tamaños, colores, formas, formatos y renderizado de información al usuario. 
 
     p.mb-5(data-aos="flip-up") #[strong Entre las tecnologías que son usadas del lado #[i Front-end] podemos indicar las siguientes:]
 
@@ -107,7 +107,7 @@
 
     p.mb-5(data-aos="flip-up") #[strong Entre las tecnologías que son usadas del lado #[i Back-end] podemos indicar las siguientes:]
 
-    ul.lista-ul--color1.mb-5
+    ul.lista-ul--color.li_1.mb-5
       li(data-aos="slide-left") 
         i.fas.fa-check
         | Servidores de aplicaciones como Apache Friends, Apache Tomcat, Glassfish, Spark, Heroku. 
@@ -134,7 +134,7 @@
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 4] #[br] #[i Arquitectura vertical]
     figure.mb-5(data-aos="flip-up") 
-      img.img-a(src='@/assets/curso/tema_2/img_4.png', alt='Texto que describa la imagen')
+      img.img-a.mb-4(src='@/assets/curso/tema_2/img_4.png', alt='Texto que describa la imagen')
       figcaption Nota. Adaptado de Idital (2020) 
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-up")
@@ -169,7 +169,7 @@
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 6] #[br] #[i Mapa de navegación]
     figure.mb-5(data-aos="flip-up") 
-      img.img-a(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
+      img.img-a.mb-4(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
       figcaption Nota. Adaptado de Eniun (s.f)
 
     separador
@@ -180,19 +180,19 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
       .row.justify-content-center(titulo="Realizar una planificación adecuada:")
-        p es importante tener claro cuál es el objetivo y que se quiere construir antes de iniciar. Un producto software puede tener muchas utilidades y según las especificaciones de los requisitos de software habrá una u otra estructura que se acople mejor a la necesidad. Teniendo en cuenta características como el objetivo (#[i target]), la información a presentar, las palabras clave, formulario de acceso, recursos multimedia, gama de colores, tipografía, entre otros. 
+        p es importante tener claro cuál es el objetivo y que se quiere construir antes de iniciar. Un producto #[i software] puede tener muchas utilidades y según las especificaciones de los requisitos de #[i software] habrá una u otra estructura que se acople mejor a la necesidad. Teniendo en cuenta características como el objetivo (#[i target]), la información a presentar, las palabras clave, formulario de acceso, recursos multimedia, gama de colores, tipografía, entre otros. 
 
         p Algunas categorizaciones:
-        ul.lista-ul--color1
+        ul.lista-ul--color.li_1
           li(data-aos="slide-left") 
             i.fas.fa-check
             | Aplicaciones web
           li(data-aos="slide-right") 
             i.fas.fa-check
-            | #[i Landing page]
+            | #[em Landing page]
           li(data-aos="slide-left") 
             i.fas.fa-check
-            | #[i E-Commerce]
+            | #[em E-Commerce]
           li(data-aos="slide-right") 
             i.fas.fa-check
             | Página web de servicios
@@ -233,7 +233,7 @@
 
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="slide-left") 
-        p Por otro lado, los Frameworks (Marcos de trabajo) son una serie de librerías, paquetes y clases, que buscan optimizar el proceso de desarrollo, por ejemplo, en JavaScript podemos encontrar a Angular, VueJs, ReactJs, en PHP encontramos a Yii, Cake, Laravel, Java a Spring MVC, Spring Boot, PrimeFaces. Estos fueron diseñados con la finalidad de implementar patrones identificados y maximizar el proceso de configuración y desarrollo inicial de los productos software, de tal manera que los equipos de trabajo se enfocarán explícitamente en la lógica de negocio relacionada al problema. 
+        p Por otro lado, los Frameworks (Marcos de trabajo) son una serie de librerías, paquetes y clases, que buscan optimizar el proceso de desarrollo, por ejemplo, en JavaScript podemos encontrar a Angular, VueJs, ReactJs, en PHP encontramos a Yii, Cake, Laravel, Java a Spring MVC, Spring Boot, PrimeFaces. Estos fueron diseñados con la finalidad de implementar patrones identificados y maximizar el proceso de configuración y desarrollo inicial de los productos #[i software], de tal manera que los equipos de trabajo se enfocarán explícitamente en la lógica de negocio relacionada al problema. 
       .col-lg-4.mb-4.mb-lg-0(data-aos="slide-right") 
         img.img-a(src='@/assets/curso/tema_2/img_10.png', alt='Texto que describa la imagen')
 
@@ -260,7 +260,7 @@
         .row
           .col-md-8.mb-4.mb-md-0.bg_06.p-4
             h4 Ruby
-            p Es un lenguaje de programación que ofrece escritura dinámica y un recolector de basura automático, es decir, es el propio software el que utiliza de forma eficiente la memoria, liberando espacio cuando ya no tiene sentido mantener todo aquello que está dentro de dicho espacio. Una gran ventaja que ofrece Ruby es que es muy fácil de leer, pero hay que tener cuidado a la hora de cometer errores cuando se está programando, porque cualquier palabra mal escrita puede derivar en tiempos de carga muy lentos. #[strong Frameworks]: Sinatra, Hobbit, Ramaze, Nancy, Padrino, Crepe, NYNY, Ruby Grape,Celluloid, Hanami, Scorched.
+            p Es un lenguaje de programación que ofrece escritura dinámica y un recolector de basura automático, es decir, es el propio #[i software] el que utiliza de forma eficiente la memoria, liberando espacio cuando ya no tiene sentido mantener todo aquello que está dentro de dicho espacio. Una gran ventaja que ofrece Ruby es que es muy fácil de leer, pero hay que tener cuidado a la hora de cometer errores cuando se está programando, porque cualquier palabra mal escrita puede derivar en tiempos de carga muy lentos. #[strong Frameworks]: Sinatra, Hobbit, Ramaze, Nancy, Padrino, Crepe, NYNY, Ruby Grape,Celluloid, Hanami, Scorched.
       .py-4.py-md-5(:icono="require('@/assets/curso/tema_2/img_15.png')")
         .row
           .col-md-8.mb-4.mb-md-0.bg_06.p-4
@@ -272,11 +272,11 @@
             h4 C#
             p Está considerado como uno de los lenguajes obligatorios que todo desarrollador o programador debe conocer si quiere tener proyectos a su cargo en todo momento. A pesar de recibir ciertas críticas con base a la vinculación entre C# y .NET Framework, la gran ventaja es que aprender y empezar a programar en C# permite estar presente en Windows, el sistema operativo más usado del mundo, además de poder aprovechar las sinergias que Microsoft ha creado entre Windows y su consola de sobremesa Xbox. #[strong Frameworks:] .Net MVC, .Net Core
 
-    p.mb-5(data-aos="flip-up") Por su parte, un IDE (Integrated Developer Environment) o entorno de desarrollo integrado, es una aplicación especial diseñada para programar, la cual cuenta con una interfaz gráfica (GUI), con un editor de texto que permite escribir las sentencias u órdenes en el lenguaje de programación seleccionado para construir el producto software. Este tipo de herramientas vienen con una serie de pasos de configuración para que al realizar el proceso de programación, compilación y ejecución todo esté acorde y se pueda probar y desplegar el producto de manera local (en la máquina del desarrollador). Sabiendo esto, las siguientes son algunas de las características de los IDE:
+    p.mb-5(data-aos="flip-up") Por su parte, un IDE (Integrated Developer Environment) o entorno de desarrollo integrado, es una aplicación especial diseñada para programar, la cual cuenta con una interfaz gráfica (GUI), con un editor de texto que permite escribir las sentencias u órdenes en el lenguaje de programación seleccionado para construir el producto #[i software]. Este tipo de herramientas vienen con una serie de pasos de configuración para que al realizar el proceso de programación, compilación y ejecución todo esté acorde y se pueda probar y desplegar el producto de manera local (en la máquina del desarrollador). Sabiendo esto, las siguientes son algunas de las características de los IDE:
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="slide-left") 
       .cajon-b.color-acento-botones
-        p.mb-0 #[strong Editor de código fuente:] es la herramienta que permite al desarrollador escribir el código fuente del producto software, esta herramienta por lo general contiene indicadores visuales, que ayudan a identificar los errores de sintaxis, autocompletado, comprobación de errores a la medida que se van escribiendo las sentencias. En esta herramienta se hace plena validación de las reglas semánticas del lenguaje en el cual se está construyendo el producto software.
+        p.mb-0 #[strong Editor de código fuente:] es la herramienta que permite al desarrollador escribir el código fuente del producto #[i software], esta herramienta por lo general contiene indicadores visuales, que ayudan a identificar los errores de sintaxis, autocompletado, comprobación de errores a la medida que se van escribiendo las sentencias. En esta herramienta se hace plena validación de las reglas semánticas del lenguaje en el cual se está construyendo el producto #[i software].
 
     .cajon.color-secundario.p-4.mb-5(data-aos="slide-right") 
       .cajon-b.color-secundario
@@ -317,7 +317,7 @@
       .col-lg-4(data-aos="flip-up")
         img.img-a(src='@/assets/curso/tema_2/img_17.png', alt='Texto que describa la imagen')
 
-    p.mb-5 A su vez, los #[strong #[i plugins]] son componentes que permiten habilitar nuevas características a los IDE y entornos de desarrollo. Utilizar #[i plugins] implica asumir cierto riesgo en la seguridad, ya que los hackers pueden usar estas ampliaciones como puerto de entrada para un ataque en el computador del desarrollador, esto se puede dar, dado que los #[i plugins] son parches de software desarrollados por agentes externos al propietario del IDE, por lo cual podría contener en su código fuente un malware que se use con fines adversos al inicialmente definido por el entorno de desarrollo. Tener en cuenta que cada IDE tiene su propia línea de #[i plugins], con lo cual el desarrollador dispondrá de una amplia gama de opciones para definir cuál será la mejor herramienta para poder desempeñar sus funciones. 
+    p.mb-5 A su vez, los #[strong #[i plugins]] son componentes que permiten habilitar nuevas características a los IDE y entornos de desarrollo. Utilizar #[i plugins] implica asumir cierto riesgo en la seguridad, ya que los hackers pueden usar estas ampliaciones como puerto de entrada para un ataque en el computador del desarrollador, esto se puede dar, dado que los #[i plugins] son parches de #[i software] desarrollados por agentes externos al propietario del IDE, por lo cual podría contener en su código fuente un malware que se use con fines adversos al inicialmente definido por el entorno de desarrollo. Tener en cuenta que cada IDE tiene su propia línea de #[i plugins], con lo cual el desarrollador dispondrá de una amplia gama de opciones para definir cuál será la mejor herramienta para poder desempeñar sus funciones. 
 
     h4.mb-5 Estos son algunos plugins:
 

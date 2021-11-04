@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estructura de una aplicación',
     descripcionCurso:
-      'En este módulo el aprendiz comprenderá los conceptos fundamentales del diseño y arquitectura de software, cuáles son los tipos de arquitectura de una aplicación web, identificar sus componentes, protocolos, herramientas, entornos y lenguajes de programación. Será capaz de identificar las diferencias entre los diversos tipos de proyectos en el desarrollo de software y tendrá la capacidad de interpretar diagramas de diseño y arquitectura de software.',
+      'En este módulo el aprendiz comprenderá los conceptos fundamentales del diseño y arquitectura de <em>software</em>, cuáles son los tipos de arquitectura de una aplicación web, identificar sus componentes, protocolos, herramientas, entornos y lenguajes de programación. Será capaz de identificar las diferencias entre los diversos tipos de proyectos en el desarrollo de <em>software</em> y tendrá la capacidad de interpretar diagramas de diseño y arquitectura de <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -190,7 +190,7 @@ export default {
 
     {
       referencia:
-        'Reynoso, C. B. (2004). Introducción a la Arquitectura de Software. <em>Universidad de Buenos Aires</em>, 33. ',
+        'Reynoso, C. B. (2004). Introducción a la Arquitectura de <em>Software</em>. <em>Universidad de Buenos Aires</em>, 33. ',
       link:
         'http://carlosreynoso.com.ar/archivos/arquitectura/Arquitectura-software.pdf',
     },

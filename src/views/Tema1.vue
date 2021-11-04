@@ -18,15 +18,15 @@
       .col-lg-5.mb-4.mb-lg-0(data-aos="slide-right")
         img.img-a(src='@/assets/curso/tema_1/img_1.png', alt='Texto que describa la imagen')
 
-    p(data-aos="flip-up") El definir la estructura de un sistema de información, representa un impacto menor ante los requisitos funcionales por el sistema. Un producto software que contiene una estructura en espagueti puede ser totalmente funcional, dado que da respuestas a las necesidades del cliente, pero puede ser un caos su mantenimiento dado que sus componentes no contendrán patrones fáciles de identificar para la realización de cambios o mejoras.
+    p(data-aos="flip-up") El definir la estructura de un sistema de información, representa un impacto menor ante los requisitos funcionales por el sistema. Un producto #[i software] que contiene una estructura en espagueti puede ser totalmente funcional, dado que da respuestas a las necesidades del cliente, pero puede ser un caos su mantenimiento dado que sus componentes no contendrán patrones fáciles de identificar para la realización de cambios o mejoras.
 
     .bloque-texto-b.color-secundario.mb-5(data-aos="flip-up")
       .bloque-texto-b__texto
-        p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto software, pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el core de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de streaming, la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
+        p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto #[em software], pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el core de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de streaming, la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 1] #[br] #[i Representación de la arquitectura por capas]
     figure.mb-5(data-aos="flip-up") 
-      img.img-a(src='@/assets/curso/tema_1/img_2.svg', alt='Texto que describa la imagen')
+      img.img-a.mb-4(src='@/assets/curso/tema_1/img_2.svg', alt='Texto que describa la imagen')
       figcaption Nota. Adaptada de Programadorclic (s.f.)
 
     p.mb-5(data-aos="flip-up")
@@ -85,7 +85,7 @@
     .bg_01.p-5.mb-5
       h3 Arquitectura en capas y N-tier
 
-      p Es un tipo de arquitectura tradicional que suele emplearse en el diseño de aplicaciones ON-Premise (Infraestructura de software local) y empresariales, por lo general se asocia con aplicaciones heredadas.
+      p Es un tipo de arquitectura tradicional que suele emplearse en el diseño de aplicaciones ON-Premise (Infraestructura de #[i software] local) y empresariales, por lo general se asocia con aplicaciones heredadas.
 
       h4.mb-5 Representación de arquitectura por capas
 
@@ -203,7 +203,7 @@
         SlyderA
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              p Representa un modo de abordar la construcción del software y la estructuración del mismo, en este tipo de implementación el producto software se divide en elementos más pequeños, que se representan en muchos productos de software (aplicaciones), los cuales son independientes entre sí. 
+              p Representa un modo de abordar la construcción del #[i software] y la estructuración del mismo, en este tipo de implementación el producto #[i software] se divide en elementos más pequeños, que se representan en muchos productos de #[i software] (aplicaciones), los cuales son independientes entre sí. 
             .col-md-4
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_18.png', alt='Texto que describa la imagen')
@@ -224,11 +224,11 @@
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_21.png', alt='Texto que describa la imagen')
             figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
 
-            p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio web, una aplicación móvil o el backend de otro producto software.  
+            p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio web, una aplicación móvil o el backend de otro producto #[i software].  
 
-    p(data-aos="slide-left") El objetivo de implementar este tipo de arquitecturas es distribuir el software de calidad con mayor rapidez, dado que se facilita el proceso de crear diversos servicios al mismo tiempo y desplegarlos, sin la necesidad de tener que construir una sola aplicación monolítica inmensa que al final puede llegar a ser insostenible. Gracias a esto cada desarrollador puede trabajar en sus servicios o funcionalidades al mismo tiempo sin afectar toda la aplicación y permitiendo de esta manera lanzar nuevas características de forma frecuente. 
+    p(data-aos="slide-left") El objetivo de implementar este tipo de arquitecturas es distribuir el #[i software] de calidad con mayor rapidez, dado que se facilita el proceso de crear diversos servicios al mismo tiempo y desplegarlos, sin la necesidad de tener que construir una sola aplicación monolítica inmensa que al final puede llegar a ser insostenible. Gracias a esto cada desarrollador puede trabajar en sus servicios o funcionalidades al mismo tiempo sin afectar toda la aplicación y permitiendo de esta manera lanzar nuevas características de forma frecuente. 
 
-    p.mb-5(data-aos="slide-right") Es importante destacar la diferencia entre las arquitecturas tradicionales y las modernas, de las cuales nos encontramos con la monolítica y la orientada a microservicios. En la siguiente figura, se puede observar que mientras el primer apartado gráfico indica que todos los componentes de software están inmersos en un solo componente y realizar un cambio suele ser un proceso crítico que se realiza 1 a 2 veces por año, la segunda parte presenta la segregación y distribución de funcionalidades de tal manera que corregir o crear nuevas funcionalidades es sencillo sin repercutir en generar caos al desplegar una nueva funcionalidad o mejora, esto permite que haya un despliegue continuo. Para describir un poco mejor las diferencias entre las dos vertientes se presenta la siguiente figura:
+    p.mb-5(data-aos="slide-right") Es importante destacar la diferencia entre las arquitecturas tradicionales y las modernas, de las cuales nos encontramos con la monolítica y la orientada a microservicios. En la siguiente figura, se puede observar que mientras el primer apartado gráfico indica que todos los componentes de #[i software] están inmersos en un solo componente y realizar un cambio suele ser un proceso crítico que se realiza 1 a 2 veces por año, la segunda parte presenta la segregación y distribución de funcionalidades de tal manera que corregir o crear nuevas funcionalidades es sencillo sin repercutir en generar caos al desplegar una nueva funcionalidad o mejora, esto permite que haya un despliegue continuo. Para describir un poco mejor las diferencias entre las dos vertientes se presenta la siguiente figura:
 
     p.BorTit(data-aos="flip-up") #[strong Figura 2] #[br] #[i Arquitectura monolítica vs arquitectura orientada a microservicios]
     figure.mb-5(data-aos="flip-up")
@@ -247,7 +247,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_23.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              p Un evento representa los acontecimientos importantes en el estado del hardware o software directamente en un sistema o producto software, los cuales pueden ser internos o externos. Esta solución permite un acoplamiento mínimo, lo cual es la opción indicada refiriéndonos a las aplicaciones distribuidas y modernas.
+              p Un evento representa los acontecimientos importantes en el estado del hardware o #[i software] directamente en un sistema o producto #[i software], los cuales pueden ser internos o externos. Esta solución permite un acoplamiento mínimo, lo cual es la opción indicada refiriéndonos a las aplicaciones distribuidas y modernas.
             .col-md-4
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_24.png', alt='Texto que describa la imagen')
@@ -287,7 +287,7 @@
         SlyderA
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              p Es un modelo de software en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
+              p Es un modelo de #[i software] en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
             .col-md-4
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que describa la imagen')
@@ -307,7 +307,7 @@
     #t_1_2.titulo-segundo(data-aos="flip-up")
       .h2 1.2 Patrones de diseño 
 
-    p Los patrones son procesos, métodos y técnicas comunes que se utilizan en el proceso de desarrollo de software entre otros elementos que están directamente relacionados con el diseño de interfaces y soluciones desde el diseño. Para que una solución sea considerada como patrón deben cumplir diferentes particularidades, una de ellas es poderse aplicar afectivamente en otras soluciones, en pocas palabras debe ser reutilizable. 
+    p Los patrones son procesos, métodos y técnicas comunes que se utilizan en el proceso de desarrollo de #[i software] entre otros elementos que están directamente relacionados con el diseño de interfaces y soluciones desde el diseño. Para que una solución sea considerada como patrón deben cumplir diferentes particularidades, una de ellas es poderse aplicar afectivamente en otras soluciones, en pocas palabras debe ser reutilizable. 
 
     p.mb-5
       strong Los patrones de diseño buscan lo siguiente:
@@ -318,7 +318,7 @@
         figure
           img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Texto que describa la imagen')
       .tarjeta.tar_bg01.p-3(x="8%" y="56%")
-        p #[strong 1.] Proporcionar lista de los componentes reusables en el diseño de software.
+        p #[strong 1.] Proporcionar lista de los componentes reusables en el diseño de #[i software].
       .tarjeta.tar_bg02.p-3(x="31%" y="56%")
         p #[strong 2.] Evitar la reiteración en el planteamiento de soluciones a problemas conocidos previamente y que por medio de un patrón se pueden solucionar. 
       .tarjeta.tar_bg03.p-3(x="51%" y="56%")
@@ -347,7 +347,7 @@
       SlyderA
         .row.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            p Es un modelo de software en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
+            p Es un modelo de #[i software] en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
           .col-md-4
             figure
               img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que describa la imagen')
@@ -356,7 +356,7 @@
       .row.justify-content-center(titulo="Patrones creacionales")
         p.mb-5 Estos patrones corresponden a los que solucionan problemas de creación de instancias.  Consisten en encapsular y abstraer dicha creación, entre ellos se pueden nombrar:
         .col-md-6.mb-4.mb-md-0
-          ul.lista-ul--color1
+          ul.lista-ul--color.li_1
             li 
               i.fas.fa-check
               | Object Pool
@@ -383,7 +383,7 @@
         .col-md-6.mb-4.mb-md-0
           .row
             .col-lg-6.mb-4.mb-md-0
-              ul.lista-ul--color1
+              ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
                   | Adapter o Wrapper
@@ -400,7 +400,7 @@
                   i.fas.fa-check
                   | Facade
             .col-lg-6.mb-4.mb-md-0
-              ul.lista-ul--color1
+              ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
                   | Flyweight
@@ -420,7 +420,7 @@
         .col-md-6.mb-4.mb-md-0
           .row
             .col-lg-6.mb-4.mb-md-0
-              ul.lista-ul--color1
+              ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
                   | Chain of Responsibility
@@ -437,7 +437,7 @@
                   i.fas.fa-check
                   | Mediator
             .col-lg-6.mb-4.mb-md-0
-              ul.lista-ul--color1
+              ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
                   | Memento
