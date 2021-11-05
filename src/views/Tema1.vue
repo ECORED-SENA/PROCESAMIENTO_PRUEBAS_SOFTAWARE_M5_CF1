@@ -11,7 +11,7 @@
       .col-lg-7.mb-4.mb-lg-0(data-aos="slide-left")
         p Juega un papel muy importante en el proceso del desarrollo de #[i software], ya que desde allí se definen la estructura, componentes, comportamiento e infraestructura requerida para la construcción del #[i software], impactando la capacidad para satisfacer los atributos de calidad del sistema; entre estos están: el desempeño, tiempos de respuesta, usabilidad, accesibilidad, escalabilidad, mantenimiento y cambios de nuevas funcionalidades. 
 
-        .cajon-b.color-acento-botones.p-3.mb-5
+        .cajon-b.color-acento-botones.p-1.mb-5
           p.mb-0 Los atributos de calidad son parte de los requisitos del sistema no funcionales y son características que se deben expresar de forma cuantitativa. No tienen sentido si se expresan de forma subjetiva, dado que esto no va a ser posteriormente evaluable; por ejemplo, decir que el sistema al recibir una petición #[strong “debe ser rápido”] o que una página #[strong “debe ser ligera al cargar”], esto no se podría evaluar objetivamente. Por lo cual, podríamos decir que, si en un sistema estructurado la información debe pasar por muchos componentes antes de devolver el resultado, esto incurre en aumentar la latencia y su desempeño puede llegar a ser pobre. Otro ejemplo es que si los componentes de un #[i software] presentan un alto acoplamiento y una baja cohesión entre ellos se limita altamente la modificabilidad.
 
 
@@ -27,7 +27,9 @@
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 1] #[br] #[i Representación de la arquitectura por capas]
     figure.mb-5(data-aos="flip-up") 
       img.img-a.mb-4(src='@/assets/curso/tema_1/img_2.svg', alt='Texto que describa la imagen')
-      figcaption Nota. Adaptada de Programadorclic (s.f.)
+      .row
+        .col-lg-4
+          figcaption Nota. Adaptada de Programadorclic (s.f.)
 
     p.mb-5(data-aos="flip-up")
       strong En la anterior imagen se puede observar el ejemplo de una arquitectura con 5 capas, en la cual cada capa tiene una finalidad específica en la aplicación, las cuales se describen a continuación: 
@@ -89,33 +91,10 @@
 
       h4.mb-5 Representación de arquitectura por capas
 
-      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_02")(data-aos="flip-up")
-        .row.justify-content-center(titulo="Capa de presentación")
-          .col-md-4.mb-4.mb-md-0
-            .bg_03.p-4
-              h5.mb-0.text-center.txt_01 Componente
-          .col-md-4.mb-4.mb-md-0
-            .bg_03.p-4
-              h5.mb-0.text-center.txt_01 Componente
-        .row.justify-content-center(titulo="Capa de negocio")
-          .col-md-4.mb-4.mb-md-0
-            .bg_03.p-4
-              h5.mb-0.text-center.txt_01 Componente
-          .col-md-4.mb-4.mb-md-0
-            .bg_03.p-4
-              h5.mb-0.text-center.txt_01 Componente
-        .row.justify-content-center(titulo="Capa de persistencia")
-          .col-md-4.mb-4.mb-md-0
-            .bg_03.p-4
-              h5.mb-0.text-center.txt_01 Componente
-          .col-md-4.mb-4.mb-md-0
-            .bg_03.p-4
-              h5.mb-0.text-center.txt_01 Componente
-        .row.justify-content-center(titulo="Capa de bases de datos")
-          .col-md-4.mb-4.mb-md-0
-            img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
-          .col-md-4.mb-4.mb-md-0
-            img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
+      img.img-a.mb-3(data-aos="slide-left")(src='@/assets/curso/tema_1/img_40.png', alt='Texto que describa la imagen')
+      img.img-a.mb-3(data-aos="slide-right")(src='@/assets/curso/tema_1/img_41.png', alt='Texto que describa la imagen')
+      img.img-a.mb-3(data-aos="slide-left")(src='@/assets/curso/tema_1/img_42.png', alt='Texto que describa la imagen')
+      img.img-a.mb-5(data-aos="slide-right")(src='@/assets/curso/tema_1/img_43.png', alt='Texto que describa la imagen')
 
       .row.mb-5(data-aos="flip-up")
         .col-lg-6.mb-4.mb-lg-0(data-aos="slide-left")
@@ -151,25 +130,27 @@
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Es un tipo de arquitectura tradicional asociada a los sistemas heredados, estas contemplan toda la funcionalidad en sí, en la cual hay conexión directa a la interacción de servicios como a la construcción de estos.
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_10.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Esto significa que al hacer algún tipo de ajuste o cambio funcional el impacto es bastante alto y crítico,  pues hay afectaciones en la aplicación y en la infraestructura subyacente.
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Un solo cambio implica volver a desplegar toda la infraestructura, hay empresas que optan por lanzar actualizaciones 1 o 2 veces al año, y muchas veces sin incluir nuevas funcionalidades y solo es soporte de mantenimiento.
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de una Arquitectura Monolítica:
-            img.img-a.mb-2(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
-            figcaption.mb-4 Nota. Adaptada de Blancarte (2020)
+            img.img-a.mb-3(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
+            .row
+              .col-lg-4
+                  figcaption.mb-4 Nota. Adaptada de Blancarte (2020)
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
       h3.mb-5 Arquitectura orientada a servicios (SOA): 
@@ -178,19 +159,19 @@
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p En esta se definen las funcionalidades en estructuras de servicios independientes y reutilizables que se utilizan por medio de un bus de servicios empresarial (ESB). 
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_14.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Los servicios se organizan en torno a un proceso empresarial específico que se denomina “dominio”, estos servicios deben cumplir con un protocolo de comunicación como SOAP, REST, ActiveMQ. 
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_15.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Una aplicación Front-end puede consumir estos servicios por medio de una integración hacia el bus y presentarla al cliente.  
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_16.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
@@ -204,25 +185,27 @@
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Representa un modo de abordar la construcción del #[i software] y la estructuración del mismo, en este tipo de implementación el producto #[i software] se divide en elementos más pequeños, que se representan en muchos productos de #[i software] (aplicaciones), los cuales son independientes entre sí. 
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_18.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p A cada uno de estos elementos individuales se le denomina microservicio, que por lo general están distribuidos por dominio de negocio y tiene la particularidad de manejar un bajo acoplamiento, de tal manera que no influyen entre sí.  
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             .col-md-5.mb-4.mb-md-0
               p Este marco de trabajo es apropiado para dar soporte oportuno a la escalabilidad dinámica y la tolerancia a fallos, dado que se puede ampliar su función utilitaria sin tener que recurrir a una infraestructura compleja, se pueden realizar cambios rápidos y no afectar de esta manera a los demás dominios funcionales representados en los microservicios.
-            .col-md-4
+            .col-md-5
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_20.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de arquitectura orientada a servicios (SOA)
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_21.png', alt='Texto que describa la imagen')
-            figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
+            .row
+              .col-lg-4
+                figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
 
             p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio web, una aplicación móvil o el backend de otro producto #[i software].  
 
@@ -233,7 +216,9 @@
     p.BorTit(data-aos="flip-up") #[strong Figura 2] #[br] #[i Arquitectura monolítica vs arquitectura orientada a microservicios]
     figure.mb-5(data-aos="flip-up")
       img.img-a.mb-3(src='@/assets/curso/tema_1/img_22.png', alt='Texto que describa la imagen')
-      figcaption Nota. Adaptado de Decide Soluciones (2019)
+      .row
+        .col-lg-4
+          figcaption Nota. Adaptado de Decide Soluciones (2019)
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
       h3.mb-5 Arquitectura orientada a eventos (EDA):
@@ -277,7 +262,9 @@
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de Arquitectura Orientada a Eventos (EDA):
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_28.png', alt='Texto que describa la imagen')
-            figcaption.mb-3 Nota. Adaptado de Tovar Casallas (2016)
+            .row
+              .col-lg-4
+                figcaption.mb-3 Nota. Adaptado de Tovar Casallas (2016)
 
             p En la figura se pueden observar los diferentes productores, los cuales emiten eventos que son distribuidos por un canal, que a su vez son enviados a los suscriptores/consumidores que estén atentos al tópico del evento.
 
@@ -300,7 +287,9 @@
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de Arquitectura cliente-servidor:
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
-            figcaption.mb-3 Adaptado de CursosGratis (2021)
+            .row
+              .col-lg-4
+                figcaption.mb-3 Adaptado de CursosGratis (2021)
             p La separación entre cliente y servidor es del tipo lógico, donde el servidor no se ejecuta necesariamente en una sola máquina o ambiente, ni necesariamente es un solo programa.
 
     separador

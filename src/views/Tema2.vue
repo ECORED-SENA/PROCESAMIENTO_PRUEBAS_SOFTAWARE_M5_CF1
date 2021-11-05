@@ -54,8 +54,7 @@
     p.mb-5(data-aos="flip-up") En la arquitectura web también se incluye el diseño de interfaz de usuario, el diseño de la aplicación y la estructura de la información, con lo cual hay un enfoque del aspecto visual, colores, tamaños de letra, estructura de las diferentes secciones, las funcionalidades segregadas en cada una de las vistas del sitio web y por último, se determina la información que debe existir en cada una de las secciones del sitio web y que se verá reflejado en un ambiente productivo. 
 
     .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
-      .cajon-b.color-primario
-        p #[strong Arquitectura de aplicación o arquitectura de #[i software]:] en la arquitectura de aplicación se pueden encontrar métodos, técnicas, diseños y patrones para desarrollar un producto #[i software], la cual provee una guía y una serie de prácticas recomendadas para construir un producto #[i software], de tal modo que se obtenga una solución bien estructurada y siguiendo estándares. 
+      p #[strong.recua_bg2.p-1 Arquitectura de aplicación o arquitectura de #[i software]:] en la arquitectura de aplicación se pueden encontrar métodos, técnicas, diseños y patrones para desarrollar un producto #[i software], la cual provee una guía y una serie de prácticas recomendadas para construir un producto #[i software], de tal modo que se obtenga una solución bien estructurada y siguiendo estándares. 
 
     .row.mb-5(data-aos="flip-up")
       .col-lg-6
@@ -82,8 +81,7 @@
     p.mb-5(data-aos="flip-up") La arquitectura es un punto de partida que permite tomar decisiones de desarrollo, como por ejemplo el tipo de estructura, el lenguaje de programación y la infraestructura que se deberá tener en cuenta para su despliegue. En la actualidad se cuenta con diferentes lenguajes de programación, entre los cuales encontramos Swift, Kotlin, JavaScript, Java, Python, Php, entre otros, los cuales son usados para un tipo de programación en específico. 
 
     .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
-      .cajon-b.color-primario
-        p #[strong Desarrollo Frontend:] se puede traducir como frente o fachada final, esta vertiente del desarrollo de #[i software] es una especialidad para el desarrollo web y concentra lo que se define como interfaz de usuario (GUI - Graphical User Interface), esta es la parte del sitio web con la cual los usuarios interactúan y este se despliega del lado del cliente; está orientado al lenguaje de marcas o etiquetas, todo lo visual de un sitio web, tamaños, colores, formas, formatos y renderizado de información al usuario. 
+      p #[strong.recua_bg2.p-1 Desarrollo Frontend:] se puede traducir como frente o fachada final, esta vertiente del desarrollo de #[i software] es una especialidad para el desarrollo web y concentra lo que se define como interfaz de usuario (GUI - Graphical User Interface), esta es la parte del sitio web con la cual los usuarios interactúan y este se despliega del lado del cliente; está orientado al lenguaje de marcas o etiquetas, todo lo visual de un sitio web, tamaños, colores, formas, formatos y renderizado de información al usuario. 
 
     p.mb-5(data-aos="flip-up") #[strong Entre las tecnologías que son usadas del lado #[i Front-end] podemos indicar las siguientes:]
 
@@ -102,8 +100,7 @@
         | Css3
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-up")
-      .cajon-b.color-acento-botones
-        p #[strong Desarrollo Backend:] está enfocado a lenguajes de programación y hace referencia a la lógica interna del sistema, se le conoce también como el desarrollo del lado del servidor, dado que los componentes están en un espacio servidor que normalmente está conectado al internet (nube) o algún tipo de red que permita acceder a sus funcionalidades. 
+      p #[strong.recua_bg1.p-1 Desarrollo Backend:] está enfocado a lenguajes de programación y hace referencia a la lógica interna del sistema, se le conoce también como el desarrollo del lado del servidor, dado que los componentes están en un espacio servidor que normalmente está conectado al internet (nube) o algún tipo de red que permita acceder a sus funcionalidades. 
 
     p.mb-5(data-aos="flip-up") #[strong Entre las tecnologías que son usadas del lado #[i Back-end] podemos indicar las siguientes:]
 
@@ -128,18 +125,18 @@
     p.mb-5(data-aos="flip-up") Los diferentes tipos de arquitecturas web se pueden catalogar dada su profundidad, cantidad de interacciones con el usuario al dar clic, como las siguientes: 
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-up")
-      .cajon-b.color-acento-botones
-        p.mb-0 #[strong Arquitectura vertical:] son aquellos sitios web que emplean una gran cantidad de categorías, para organizar la información, dejando una gran distancia entre el home y la última página posible, este distanciamiento se mide en clics realizados por el usuario al momento de efectuar la navegación en el sitio.
+      p.mb-0 #[strong.recua_bg1.p-1 Arquitectura vertical:] son aquellos sitios web que emplean una gran cantidad de categorías, para organizar la información, dejando una gran distancia entre el home y la última página posible, este distanciamiento se mide en clics realizados por el usuario al momento de efectuar la navegación en el sitio.
         p.mb-0 Un ejemplo claro de este tipo de arquitectura se puede presentar las páginas web de las tiendas online, en la siguiente grafica puede visualizar este tipo de arquitectura.
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 4] #[br] #[i Arquitectura vertical]
     figure.mb-5(data-aos="flip-up") 
       img.img-a.mb-4(src='@/assets/curso/tema_2/img_4.png', alt='Texto que describa la imagen')
-      figcaption Nota. Adaptado de Idital (2020) 
+      .row
+        .col-lg-4
+          figcaption Nota. Adaptado de Idital (2020) 
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-up")
-      .cajon-b.color-acento-botones
-        p.mb-0 #[strong Arquitectura Horizontal:] la arquitectura web horizontal o plana, es aquella que tiene la posibilidad de acceder a todo el contenido del sitio web, con uno o dos clics nada más; se trata del método de distribución de información ideal, además los bots (programa informático que actúa como un robot) podrán leer los patrones presentes el sitio web más rápido y esto resulta muy positivo. En la siguiente gráfica se puede visualizar este tipo de arquitectura:
+      p.mb-0 #[strong.recua_bg1.p-1 Arquitectura Horizontal:] la arquitectura web horizontal o plana, es aquella que tiene la posibilidad de acceder a todo el contenido del sitio web, con uno o dos clics nada más; se trata del método de distribución de información ideal, además los bots (programa informático que actúa como un robot) podrán leer los patrones presentes el sitio web más rápido y esto resulta muy positivo. En la siguiente gráfica se puede visualizar este tipo de arquitectura:
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 5] #[br] #[i Estructura horizontal]
     figure.mb-5(data-aos="flip-up") 
@@ -156,12 +153,15 @@
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="slide-left") 
         img.img-a.mb-3(src='@/assets/curso/tema_2/img_6.png', alt='Texto que describa la imagen')
+        h4.text-center Mapas Hipertextuales
         p Son artefactos que representan gráficamente los documentos, elementos,  hipervínculos  y las conexiones existentes entre los mismos.
       .col-lg-4.mb-4.mb-lg-0(data-aos="flip-up")
         img.img-a.mb-3(src='@/assets/curso/tema_2/img_7.png', alt='Texto que describa la imagen')
+        h4.text-center Mapas de Navegación en Acción
         p Describe las categorías implementadas en el menú de navegación.
       .col-lg-4.mb-4.mb-lg-0(data-aos="slide-right") 
         img.img-a.mb-3(src='@/assets/curso/tema_2/img_8.png', alt='Texto que describa la imagen')
+        h4.text-center Software para crear mapas 
         p Se utilizan herramientas de generación de código, por lo general basados en JavaScript, el cual permite la exportación de un menú activo, que utiliza imágenes como iconos y estándares en los archivos generados. 
 
     p.mb-5(data-aos="flip-up")
@@ -170,7 +170,9 @@
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 6] #[br] #[i Mapa de navegación]
     figure.mb-5(data-aos="flip-up") 
       img.img-a.mb-4(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
-      figcaption Nota. Adaptado de Eniun (s.f)
+      .row
+        .col-lg-4
+          figcaption Nota. Adaptado de Eniun (s.f)
 
     separador
     #t_2_3.titulo-segundo(data-aos="flip-up")
@@ -275,16 +277,13 @@
     p.mb-5(data-aos="flip-up") Por su parte, un IDE (Integrated Developer Environment) o entorno de desarrollo integrado, es una aplicación especial diseñada para programar, la cual cuenta con una interfaz gráfica (GUI), con un editor de texto que permite escribir las sentencias u órdenes en el lenguaje de programación seleccionado para construir el producto #[i software]. Este tipo de herramientas vienen con una serie de pasos de configuración para que al realizar el proceso de programación, compilación y ejecución todo esté acorde y se pueda probar y desplegar el producto de manera local (en la máquina del desarrollador). Sabiendo esto, las siguientes son algunas de las características de los IDE:
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="slide-left") 
-      .cajon-b.color-acento-botones
-        p.mb-0 #[strong Editor de código fuente:] es la herramienta que permite al desarrollador escribir el código fuente del producto #[i software], esta herramienta por lo general contiene indicadores visuales, que ayudan a identificar los errores de sintaxis, autocompletado, comprobación de errores a la medida que se van escribiendo las sentencias. En esta herramienta se hace plena validación de las reglas semánticas del lenguaje en el cual se está construyendo el producto #[i software].
+      p.mb-0 #[strong.recua_bg1.p-1 Editor de código fuente:] es la herramienta que permite al desarrollador escribir el código fuente del producto #[i software], esta herramienta por lo general contiene indicadores visuales, que ayudan a identificar los errores de sintaxis, autocompletado, comprobación de errores a la medida que se van escribiendo las sentencias. En esta herramienta se hace plena validación de las reglas semánticas del lenguaje en el cual se está construyendo el producto #[i software].
 
     .cajon.color-secundario.p-4.mb-5(data-aos="slide-right") 
-      .cajon-b.color-secundario
-        p.mb-0 #[strong Automatización de compilaciones locales:] herramienta que sirve para automatizar tareas sencillas y repetitivas como parte de la comisión local, esto permite crear el código binario, ejecución de prueba automatizadas, verificación de cobertura, verificación de estilos en la programación para el código fuente. 
+      p.mb-0 #[strong.recua_bg2 Automatización de compilaciones locales:] herramienta que sirve para automatizar tareas sencillas y repetitivas como parte de la comisión local, esto permite crear el código binario, ejecución de prueba automatizadas, verificación de cobertura, verificación de estilos en la programación para el código fuente. 
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="slide-left") 
-      .cajon-b.color-acento-botones
-        p.mb-0 #[strong Depurador:] es la herramienta que sirve para probar los programas, en el cual se realiza una inspección y se ubican los errores en el código de forma visual o en un reporte en texto plano, esto es de mucha utilidad para los desarrolladores ya que permite encontrar problemas rápidamente y dar solución. 
+      p.mb-0 #[strong.recua_bg1.p-1 Depurador:] es la herramienta que sirve para probar los programas, en el cual se realiza una inspección y se ubican los errores en el código de forma visual o en un reporte en texto plano, esto es de mucha utilidad para los desarrolladores ya que permite encontrar problemas rápidamente y dar solución. 
 
     .row.mb-5
       .col-lg-5
