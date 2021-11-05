@@ -197,7 +197,7 @@ export default {
 
     {
       referencia:
-        'Tovar Casallas, A. (2016). <em>Arquitectura de software para la gestión del proceso de validación de núcleos familiares</em>. udistrital. ',
+        'Tovar Casallas, A. (2016). <em>Arquitectura de <em>software</em> para la gestión del proceso de validación de núcleos familiares</em>. udistrital. ',
       link:
         'https://repository.udistrital.edu.co/bitstream/handle/11349/5184/TovarCasallasAlvaro2016.pdf;jsessionid=3AF46842DF4FDE64884BA906E3AFA903?sequence=1',
     },
@@ -206,7 +206,7 @@ export default {
     {
       termino: 'Aplicación',
       significado:
-        'Producto software creado para ejecutar una acción en específico, tales como cálculo de notas, recepción de pagos en línea, gestión de información, entre otros.',
+        'Producto <em>software</em> creado para ejecutar una acción en específico, tales como cálculo de notas, recepción de pagos en línea, gestión de información, entre otros.',
     },
     {
       termino: 'Arquitectura',
