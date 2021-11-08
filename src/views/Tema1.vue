@@ -22,9 +22,9 @@
 
     .bloque-texto-b.color-secundario.mb-5(data-aos="flip-up")
       .bloque-texto-b__texto
-        p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto #[em software], pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el core de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de streaming, la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
+        p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto #[em software], pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el #[em core] de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de streaming, la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
 
-    p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 1] #[br] #[i Representación de la arquitectura por capas]
+    p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 1] #[br] Representación de la arquitectura por capas
     figure.mb-5(data-aos="flip-up") 
       img.img-a.mb-4(src='@/assets/curso/tema_1/img_2.svg', alt='Texto que describa la imagen')
       .row
@@ -49,7 +49,7 @@
           .tarjeta-numerada__numero
             .h2 2
           h4 Capa de acceso de datos
-          p Contiene los componentes, clases o archivos que interactúan con la capa de datos, se puede encontrar ORM o Frameworks especializados que facilitan la conexión con el motor de base de datos.
+          p Contiene los componentes, clases o archivos que interactúan con la capa de datos, se puede encontrar ORM o #[i Frameworks] especializados que facilitan la conexión con el motor de base de datos.
           img.img-a(src='@/assets/curso/tema_1/img_4.png', alt='Texto que describa la imagen')
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex(data-aos="slide-right")
         .tarjeta-numerada.color-secundario.p-5
@@ -65,29 +65,29 @@
           .tarjeta-numerada__numero
             .h2 4
           h4 Capa de servicio
-          p Es la responsable de intermediar la comunicación desde cualquier interfaz de acceso hacia la lógica de negocio, en ella se establecen adaptadores y proxies (servidores intermediarios de acceso) que permiten el acceso desde diferentes consumidores o canales.
+          p Es la responsable de intermediar la comunicación desde cualquier interfaz de acceso hacia la lógica de negocio, en ella se establecen adaptadores y #[i proxies] (servidores intermediarios de acceso) que permiten el acceso desde diferentes consumidores o canales.
           img.img-a(src='@/assets/curso/tema_1/img_6.png', alt='Texto que describa la imagen')
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex(data-aos="slide-right")
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             .h2 5
           h4 Capa de presentación
-          p Representa las interfaces de usuario, vistas o pantallas que están de cara al usuario, lo que también es conocido como GUI (Graphical User Interfaces) por sus siglas en inglés.
+          p Representa las interfaces de usuario, vistas o pantallas que están de cara al usuario, lo que también es conocido como GUI (#[i Graphical User Interfaces]) por sus siglas en inglés.
           img.img-a(src='@/assets/curso/tema_1/img_7.png', alt='Texto que describa la imagen')
       .col-md-6.col-xl.mb-4.mb-xl-0
 
     separador
-    #t_1_1.titulo-segundo(data-aos="flip-up")
+    #t_1_1.titulo-segundo(data-aos="flip-up").mb-4
       .h2 1.1 Tipos de arquitectura de aplicación
 
-    p(data-aos="flip-up") Es necesaria al decidir la arquitectura que se debe usar en el desarrollo de un sistema de información, aplicación o sitio web, permitiendo evaluar y definir los objetivos estratégicos, esto ayudará que la arquitectura a diseñar respalde la finalidad del proyecto y que los componentes encajen adecuadamente. 
-    p(data-aos="flip-up")
-      strong Entre las arquitecturas más conocidas y empleadas para el desarrollo de sitios, aplicaciones o sistemas de información web están las siguientes:
+    p(data-aos="flip-up") Es necesaria al decidir la arquitectura que se debe usar en el desarrollo de un sistema de información, aplicación o sitio #[i web], permitiendo evaluar y definir los objetivos estratégicos, esto ayudará que la arquitectura a diseñar respalde la finalidad del proyecto y que los componentes encajen adecuadamente. 
+    p(data-aos="flip-up").mb-5
+      strong Entre las arquitecturas más conocidas y empleadas para el desarrollo de sitios, aplicaciones o sistemas de información #[i web] están las siguientes:
 
     .bg_01.p-5.mb-5
       h3 Arquitectura en capas y N-tier
 
-      p Es un tipo de arquitectura tradicional que suele emplearse en el diseño de aplicaciones ON-Premise (Infraestructura de #[i software] local) y empresariales, por lo general se asocia con aplicaciones heredadas.
+      p Es un tipo de arquitectura tradicional que suele emplearse en el diseño de aplicaciones #[i ON-Premise] (Infraestructura de #[i software] local) y empresariales, por lo general se asocia con aplicaciones heredadas.
 
       h4.mb-5 Representación de arquitectura por capas
 
@@ -102,16 +102,16 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                | En esta arquitectura se definen diferentes capas o niveles
+                | En esta arquitectura se definen diferentes capas o niveles.
               li 
                 i.fas.fa-check
-                | Cada una de las capas componen la aplicación y tienen una función específica
+                | Cada una de las capas componen la aplicación y tienen una función específica.
               li 
                 i.fas.fa-check
-                | Permite la gestión de dependencias y el diseño de funciones lógicas de acuerdo con el nivel de cada capa
+                | Permite la gestión de dependencias y el diseño de funciones lógicas de acuerdo con el nivel de cada capa.
               li 
                 i.fas.fa-check
-                | Segregando las responsabilidades, evitando la duplicación o redundancia en la creación de código
+                | Segregando las responsabilidades, evitando la duplicación o redundancia en la creación de código.
               li 
                 i.fas.fa-check
                 | Permite crear validaciones, reglas de negocio o conexiones a drivers (adaptadores). 
@@ -119,7 +119,7 @@
           img.img-a(src='@/assets/curso/tema_1/img_9.png', alt='Texto que describa la imagen')
 
       .bg_02.rounded.p-4
-        p.mb-0 Estas arquitecturas se organizan de forma horizontal por lo que la comunicación entre ellas debe ser de una capa superior a una inferior
+        p.mb-0.txt_02 Estas arquitecturas se organizan de forma horizontal por lo que la comunicación entre ellas debe ser de una capa superior a una inferior.
  
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
@@ -147,7 +147,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de una Arquitectura Monolítica:
-            img.img-a.mb-3(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
+            img.img-a.mb-3(src='@/assets/curso/tema_1/img_13.svg', alt='Texto que describa la imagen')
             .row
               .col-lg-4
                   figcaption.mb-4 Nota. Adaptada de Blancarte (2020)
@@ -176,7 +176,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_16.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de arquitectura orientada a servicios (SOA)
-            img.img-a.mb-4(src='@/assets/curso/tema_1/img_17.png', alt='Texto que describa la imagen')
+            img.img-a.mb-4(src='@/assets/curso/tema_1/img_17.svg', alt='Texto que describa la imagen')
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
       h3.mb-5 Arquitectura de microservicios (MSI): 
@@ -202,20 +202,20 @@
                 img.img-a(src='@/assets/curso/tema_1/img_20.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de arquitectura orientada a servicios (SOA)
-            img.img-a.mb-2(src='@/assets/curso/tema_1/img_21.png', alt='Texto que describa la imagen')
+            img.img-a.mb-2(src='@/assets/curso/tema_1/img_21.svg', alt='Texto que describa la imagen')
             .row
               .col-lg-4
                 figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
 
-            p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio web, una aplicación móvil o el backend de otro producto #[i software].  
+            p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio #[i web], una aplicación móvil o el backend de otro producto #[i software].  
 
     p(data-aos="slide-left") El objetivo de implementar este tipo de arquitecturas es distribuir el #[i software] de calidad con mayor rapidez, dado que se facilita el proceso de crear diversos servicios al mismo tiempo y desplegarlos, sin la necesidad de tener que construir una sola aplicación monolítica inmensa que al final puede llegar a ser insostenible. Gracias a esto cada desarrollador puede trabajar en sus servicios o funcionalidades al mismo tiempo sin afectar toda la aplicación y permitiendo de esta manera lanzar nuevas características de forma frecuente. 
 
     p.mb-5(data-aos="slide-right") Es importante destacar la diferencia entre las arquitecturas tradicionales y las modernas, de las cuales nos encontramos con la monolítica y la orientada a microservicios. En la siguiente figura, se puede observar que mientras el primer apartado gráfico indica que todos los componentes de #[i software] están inmersos en un solo componente y realizar un cambio suele ser un proceso crítico que se realiza 1 a 2 veces por año, la segunda parte presenta la segregación y distribución de funcionalidades de tal manera que corregir o crear nuevas funcionalidades es sencillo sin repercutir en generar caos al desplegar una nueva funcionalidad o mejora, esto permite que haya un despliegue continuo. Para describir un poco mejor las diferencias entre las dos vertientes se presenta la siguiente figura:
 
-    p.BorTit(data-aos="flip-up") #[strong Figura 2] #[br] #[i Arquitectura monolítica vs arquitectura orientada a microservicios]
+    p.BorTit(data-aos="flip-up") #[strong Figura 2] #[br]  Arquitectura monolítica vs arquitectura orientada a microservicios
     figure.mb-5(data-aos="flip-up")
-      img.img-a.mb-3(src='@/assets/curso/tema_1/img_22.png', alt='Texto que describa la imagen')
+      img.img-a.mb-3(src='@/assets/curso/tema_1/img_22.svg', alt='Texto que describa la imagen')
       .row
         .col-lg-4
           figcaption Nota. Adaptado de Decide Soluciones (2019)
@@ -261,7 +261,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de Arquitectura Orientada a Eventos (EDA):
-            img.img-a.mb-2(src='@/assets/curso/tema_1/img_28.png', alt='Texto que describa la imagen')
+            img.img-a.mb-2(src='@/assets/curso/tema_1/img_28.svg', alt='Texto que describa la imagen')
             .row
               .col-lg-4
                 figcaption.mb-3 Nota. Adaptado de Tovar Casallas (2016)
@@ -285,15 +285,15 @@
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_30.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
-            h4.text-center.mb-5 Representación de Arquitectura cliente-servidor:
-            img.img-a.mb-2(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
+            h4.text-center.mb-5.mt-3 Representación de Arquitectura cliente-servidor:
+            img.img-a.mb-3(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
             .row
               .col-lg-4
                 figcaption.mb-3 Adaptado de CursosGratis (2021)
             p La separación entre cliente y servidor es del tipo lógico, donde el servidor no se ejecuta necesariamente en una sola máquina o ambiente, ni necesariamente es un solo programa.
 
     separador
-    #t_1_2.titulo-segundo(data-aos="flip-up")
+    #t_1_2.titulo-segundo(data-aos="flip-up").mb-4
       .h2 1.2 Patrones de diseño 
 
     p Los patrones son procesos, métodos y técnicas comunes que se utilizan en el proceso de desarrollo de #[i software] entre otros elementos que están directamente relacionados con el diseño de interfaces y soluciones desde el diseño. Para que una solución sea considerada como patrón deben cumplir diferentes particularidades, una de ellas es poderse aplicar afectivamente en otras soluciones, en pocas palabras debe ser reutilizable. 
@@ -305,7 +305,7 @@
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
-          img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Texto que describa la imagen')
+          img.img-a(src='@/assets/curso/tema_1/img_32.svg', alt='Texto que describa la imagen')
       .tarjeta.tar_bg01.p-3(x="8%" y="56%")
         p #[strong 1.] Proporcionar lista de los componentes reusables en el diseño de #[i software].
       .tarjeta.tar_bg02.p-3(x="31%" y="56%")
@@ -318,28 +318,21 @@
         p #[strong 5.] Mejorar el aprendizaje de nuevos ingenieros, diseñadores o desarrolladores, con prácticas y transferencia de conocimientos que ha sido aplicada correctamente.
 
     .cajon.color-secundario.p-4.mb-5
-      h5 Los patrones de diseño no pretenden:
+      h5.mt-5.mb-4 Los patrones de diseño no pretenden:
 
-      ul.lista-ul--color
+      ul.lista-ul--color.mb-4
         li 
           i.fas.fa-check
-          | #[strong Imponer una alternativa de solución ante otra.]
+          | Imponer una alternativa de solución ante otra.
         li 
           i.fas.fa-check
-          | #[strong Eliminar o limitar la creatividad inherente ante el proceso de diseño de soluciones.] 
+          | Eliminar o limitar la creatividad inherente ante el proceso de diseño de soluciones.
 
-      p.mb-0 El usar patrones de diseño no es obligatorio, pero es aconsejable, dado ayuda diseños cumplieron con el objetivo de solucionar algún problema similar; sin embargo, en casos particulares los patrones no pueden ser aplicables y forzar o abusar del uso de patrones puede ser un error. 
+      p El usar patrones de diseño no es obligatorio, pero es aconsejable, dado ayuda diseños cumplieron con el objetivo de solucionar algún problema similar; sin embargo, en casos particulares los patrones no pueden ser aplicables y forzar o abusar del uso de patrones puede ser un error. 
 
     p.mb-5 #[strong Según la escala y el nivel de abstracción podemos encontrar los siguientes tipos:]
 
-    .tarjeta.bg_04.p-4.mb-5
-      SlyderA
-        .row.align-items-center.justify-content-center
-          .col-md-5.mb-4.mb-md-0
-            p Es un modelo de #[i software] en el que las tareas se dividen entre los proveedores de recursos o servicios. Entre los cuales encontramos los llamados de servicios denominados servidores y los demandantes, llamados clientes. 
-          .col-md-4
-            figure
-              img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que describa la imagen')
+    
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
       .row.justify-content-center(titulo="Patrones creacionales")
@@ -348,22 +341,22 @@
           ul.lista-ul--color.li_1
             li 
               i.fas.fa-check
-              | Object Pool
+              | #[em Object Pool]
             li 
               i.fas.fa-check
-              | Abstract Factory
+              | #[em Abstract Factory]
             li 
               i.fas.fa-check
-              | Builder
+              | #[em Builder]
             li 
               i.fas.fa-check
-              | Factory Method
+              | #[em Factory Method]
             li 
               i.fas.fa-check
-              | Prototype
+              | #[em Prototype]
             li 
               i.fas.fa-check
-              | Singleton
+              | #[em Singleton]
 
         .col-md-6
           img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Texto que describa la imagen')
@@ -375,36 +368,36 @@
               ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
-                  | Adapter o Wrapper
+                  | #[em Adapter o Wrapper]
                 li 
                   i.fas.fa-check
-                  | Bridge
+                  | #[em Bridge]
                 li 
                   i.fas.fa-check
-                  | Composite
+                  | #[em Composite]
                 li 
                   i.fas.fa-check
-                  | Decorator
+                  | #[em Decorator]
                 li 
                   i.fas.fa-check
-                  | Facade
+                  | #[em Facade]
             .col-lg-6.mb-4.mb-md-0
               ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
-                  | Flyweight
+                  | #[em Flyweight]
                 li 
                   i.fas.fa-check
-                  | Proxy
+                  | #[em Proxy]
                 li 
                   i.fas.fa-check
-                  | Module
+                  | #[em Module]
                 li 
                   i.fas.fa-check
-                  | MVC
+                  | #[em MVC]
         .col-md-6
           img.img-a(src='@/assets/curso/tema_1/img_34.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Patrones estructurales")
+      .row.justify-content-center(titulo="Patrones de comportamiento")
         p.mb-5 Estos patrones corresponden a los que solucionan problemas de comportamiento respecto a la interacción y responsabilidades entre clases y objetos, así como los algoritmos que encapsulan, entre los cuales se encuentran: 
         .col-md-6.mb-4.mb-md-0
           .row
@@ -412,39 +405,39 @@
               ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
-                  | Chain of Responsibility
+                  | #[em Chain of Responsibility]
                 li 
                   i.fas.fa-check
-                  | Command
+                  | #[em Command]
                 li 
                   i.fas.fa-check
-                  | Interpreter
+                  | #[em Interpreter]
                 li 
                   i.fas.fa-check
-                  | Iterator
+                  | #[em Iterator]
                 li 
                   i.fas.fa-check
-                  | Mediator
+                  | #[em Mediator]
             .col-lg-6.mb-4.mb-md-0
               ul.lista-ul--color.li_1
                 li 
                   i.fas.fa-check
-                  | Memento
+                  | #[em Memento]
                 li 
                   i.fas.fa-check
-                  | Observer
+                  | #[em Observer]
                 li 
                   i.fas.fa-check
-                  | State
+                  | #[em State]
                 li 
                   i.fas.fa-check
-                  | Strategy
+                  | #[em Strategy]
                 li 
                   i.fas.fa-check
-                  | Template Method 
+                  | #[em Template Method] 
                 li 
                   i.fas.fa-check
-                  | Visitor
+                  | #[em Visitor]
         .col-md-6
           img.img-a(src='@/assets/curso/tema_1/img_35.png', alt='Texto que describa la imagen')
 

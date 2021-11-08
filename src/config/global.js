@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estructura de una aplicación',
     descripcionCurso:
-      'En este módulo el aprendiz comprenderá los conceptos fundamentales del diseño y arquitectura de <em>software</em>, cuáles son los tipos de arquitectura de una aplicación web, identificar sus componentes, protocolos, herramientas, entornos y lenguajes de programación. Será capaz de identificar las diferencias entre los diversos tipos de proyectos en el desarrollo de <em>software</em> y tendrá la capacidad de interpretar diagramas de diseño y arquitectura de <em>software</em>.',
+      'En este módulo el aprendiz comprenderá los conceptos fundamentales del diseño y arquitectura de <em>software</em>, cuáles son los tipos de arquitectura de una aplicación <em>web</em>, identificar sus componentes, protocolos, herramientas, entornos y lenguajes de programación. Será capaz de identificar las diferencias entre los diversos tipos de proyectos en el desarrollo de <em>software</em> y tendrá la capacidad de interpretar diagramas de diseño y arquitectura de <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -44,7 +44,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Arquitectura <em>web</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -56,25 +56,26 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Tipos de arquitectura web',
+            titulo: 'Tipos de arquitectura <em>web</em>',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Mapas de navegación del sitio web',
+            titulo: 'Mapas de navegación del sitio <em>web</em>',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Procedimientos para diseñar un sitio web',
+            titulo: 'Procedimientos para diseñar un sitio <em>web</em>',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Procedimientos para diseñar un sitio web',
+            titulo:
+              'Lenguajes de programación, <em>frameworks, IDE’s</em> y <em/>plugins</em> usados en el desarrollo <em>web</em>',
             hash: 't_2_5',
           },
         ],
@@ -83,7 +84,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Comunicación entre componentes de un sitio web',
+        titulo: 'Comunicación entre componentes de un sitio <em>web</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -95,7 +96,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Características del diseño web',
+            titulo: 'Características del diseño <em>web</em>',
             hash: 't_3_2',
           },
         ],
@@ -192,7 +193,7 @@ export default {
       referencia:
         'Reynoso, C. B. (2004). Introducción a la Arquitectura de <em>Software</em>. <em>Universidad de Buenos Aires</em>, 33. ',
       link:
-        'http://carlosreynoso.com.ar/archivos/arquitectura/Arquitectura-software.pdf',
+        'http://cic.javerianacali.edu.co/wiki/lib/exe/fetch.php?media=materias:introarq.pdf',
     },
 
     {
@@ -216,7 +217,7 @@ export default {
     {
       termino: 'SEO',
       significado:
-        'De sus iniciales en inglés: <em>Search Engine Optimization</em>, que traduce Optimización en el motor de búsquedas, y su objetivo es adecuar el sitio <em>web</em> a desarrollar para ser detectado rápidamente dentro de las búsquedas realizadas, mejorando el orden de aparición',
+        'De sus iniciales en inglés: <em>Search Engine Optimization</em>, que traduce Optimización en el motor de búsquedas, y su objetivo es adecuar el sitio <em>web</em> a desarrollar para ser detectado rápidamente dentro de las búsquedas realizadas, mejorando el orden de aparición.',
     },
     {
       termino: 'Software',
@@ -293,6 +294,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Julián Estrada Guzmán',
+        cargo: 'Experto temático',
+        centro: 'SENA Colombo Alemán',
+      },
+      {
+        nombre: 'Gustavo Rodríguez',
+        cargo: 'Experto temático',
+        centro: 'SENA Colombo Alemán',
+      },
+      {
+        nombre: 'Giovanna Andrea Escobar Ospina',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -307,25 +329,25 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Carlos Julián Ramirez Benitez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Andres Mauricio Santaella',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Ricardo Alfonso González Vargas',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -15,7 +15,7 @@
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Evaluar la comprensión de los conceptos, permitiendo que el aprendiz pueda establecer la mejor estructura para crear una página web, teniendo en cuenta su arquitectura. 
+              p.fw-bold.mb-0 Evaluar la comprensión de los conceptos, permitiendo que el aprendiz pueda establecer la mejor estructura para crear una página #[i web], teniendo en cuenta su arquitectura. 
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
