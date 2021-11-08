@@ -29,7 +29,7 @@
     <path id="Trazado_194693" data-name="Trazado 194693" d="M1,99.117H-1V-1H20.12V1H1Z" transform="translate(723.617 1373.296) rotate(90)" fill="#26cb99"/>
     <g id="Grupo_88903" data-name="Grupo 88903" transform="translate(96 117)">
       <path id="Rectángulo_7944-4" data-name="Rectángulo 7944" d="M2,2V77H81V2H2M0,0H83V79H0Z" transform="translate(790 1157)" fill="#ce6666"/>
-      <text id="Servicios-2" data-name="Servicios" transform="translate(800 1204)" fill="#1c1c1c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Servicios</tspan></text>
+      <text id="Productos" transform="translate(796 1204)" fill="#1c1c1c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Productos</tspan></text>
       <path id="Trazado_194688-5" data-name="Trazado 194688" d="M-6828.957-10530.651l-10.689-10.689,1.414-1.414,10.689,10.689Z" transform="translate(7699.594 11700)" fill="#ce6666"/>
     </g>
     <path id="Trazado_194704" data-name="Trazado 194704" d="M2,2V77H57V2H2M0,0H59V79H0Z" transform="translate(851 1392)" fill="#ce6666"/>

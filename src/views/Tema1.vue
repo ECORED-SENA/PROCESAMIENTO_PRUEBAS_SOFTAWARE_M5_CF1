@@ -207,7 +207,7 @@
               .col-lg-4
                 figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
 
-            p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio #[i web], una aplicación móvil o el backend de otro producto #[i software].  
+            p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio #[i web], una aplicación móvil o el #[i backend] de otro producto #[i software].  
 
     p(data-aos="slide-left") El objetivo de implementar este tipo de arquitecturas es distribuir el #[i software] de calidad con mayor rapidez, dado que se facilita el proceso de crear diversos servicios al mismo tiempo y desplegarlos, sin la necesidad de tener que construir una sola aplicación monolítica inmensa que al final puede llegar a ser insostenible. Gracias a esto cada desarrollador puede trabajar en sus servicios o funcionalidades al mismo tiempo sin afectar toda la aplicación y permitiendo de esta manera lanzar nuevas características de forma frecuente. 
 
@@ -287,9 +287,9 @@
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5.mt-3 Representación de Arquitectura cliente-servidor:
             img.img-a.mb-3(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
-            .row
+            .row.mb-3
               .col-lg-4
-                figcaption.mb-3 Adaptado de CursosGratis (2021)
+                figcaption.mt-3 Adaptado de CursosGratis (2021)
             p La separación entre cliente y servidor es del tipo lógico, donde el servidor no se ejecuta necesariamente en una sola máquina o ambiente, ni necesariamente es un solo programa.
 
     separador

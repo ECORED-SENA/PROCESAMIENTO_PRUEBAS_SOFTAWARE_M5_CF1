@@ -114,7 +114,7 @@
 
     p.mb-5(data-aos="flip-up") #[strong El desarrollo #[i Front-end] y #[i Back-end]] se complementan y convergen, un #[i Front-end] sin #[i Back-end] no tendría una utilidad significativa en el ámbito del desarrollo de aplicaciones, y un #[i Back-end] sin un #[i Front-end] estaría incompleto dado que no tendríamos un interfaz de comunicación que permita ejecutar o desencadenar las acciones relacionadas a la lógica de negocio. En la siguiente figura se presenta la relación entre estas. 
 
-    p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 3] #[br] Sinergia entre Front-end y Back-end
+    p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 3] #[br] Sinergia entre #[i Front-end] y #[i Back-end]
     figure.mb-5(data-aos="flip-up") 
       img.img-a(src='@/assets/curso/tema_2/img_3.png', alt='Texto que describa la imagen')
 
@@ -178,7 +178,7 @@
           figcaption Nota. Adaptado de Eniun (s.f)
 
     separador
-    #t_2_3.titulo-segundo(data-aos="flip-up").mb-4
+    #t_2_4.titulo-segundo(data-aos="flip-up").mb-4
       .h2 2.4. Procedimientos para diseñar un sitio #[i web]
 
     p.mb-5(data-aos="flip-up") En el proceso del diseño y desarrollo de un sitio #[i web], es importante tener presente los siguientes aspectos: 
@@ -228,7 +228,7 @@
         p Por lo cual jugar con colores llamativos, letra grande, tipografía animada, muchas imágenes hará que los niños olviden que están estudiando y se enfoquen en aprender jugando, pero si al contrario viras ese diseño a sitios empresariales orientado a personas mayores, posiblemente no se le sacará el mayor provecho. 
 
     separador
-    #t_2_4.titulo-segundo(data-aos="flip-up").mb-4
+    #t_2_5.titulo-segundo(data-aos="flip-up").mb-4
       .h2 2.5 Lenguajes de programación, #[i frameworks, IDE’s] y #[i plugins] usados en el desarrollo #[i web]
 
     p(data-aos="flip-up") Un lenguaje de programación es un lenguaje formal, en pocas palabras es un lenguaje con reglas gramaticales bien definidas, que proporciona a una persona la capacidad de escribir una serie de instrucciones (programar) con el fin de controlar el comportamiento de un componente informático, tales como: los computadores, smartphones, microcontroladores, Smart Tv, entre otros. 

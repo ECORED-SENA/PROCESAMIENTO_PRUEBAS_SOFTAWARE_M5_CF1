@@ -139,7 +139,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Alarcón, J. M. (2019). <em>Los conceptos fundamentales sobre Programación Orientada Objetos explicados de manera simple</em>. CampusMVP. ',
+        'Alarcón, J. M. (2019). Los conceptos fundamentales sobre Programación Orientada Objetos explicados de manera simple. CampusMVP. ',
       link:
         'https://www.campusmvp.es/recursos/post/los-conceptos-fundamentales-sobre-programacion-orientada-objetos-explicados-de-manera-simple.aspx',
     },
@@ -153,52 +153,52 @@ export default {
 
     {
       referencia:
-        'Blancarte, O. (2020). <em>Arquitectura Monolítica</em>. Programming. ',
+        'Blancarte, O. (2020). Arquitectura Monolítica. Programming. ',
       link:
         'https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/monolitico',
     },
 
     {
       referencia:
-        'CursosGratis (2021). <em>Arquitectura cliente-servidor: definición, tipos, ejemplos, ventajas y desventajas</em>. Aprendiendoaprogramar.es. ',
+        'CursosGratis (2021). Arquitectura cliente-servidor: definición, tipos, ejemplos, ventajas y desventajas. Aprendiendoaprogramar.es. ',
       link:
         'https://aprendiendoaprogramar.es/blog/arquitectura-cliente-servidor-definicion-tipos-ejemplos-ventajas-y-desventajas/',
     },
 
     {
       referencia:
-        'Desarrollos Creativos. (2020). <em>Importancia de la Arquitectura de una página web en el SEO</em>. Desarrolloscreativos.net. ',
+        'Desarrollos Creativos. (2020). Importancia de la Arquitectura de una página <em>web</em> en el SEO. Desarrolloscreativos.net. ',
       link:
         'http://desarrolloscreativos.net/posicionamiento-web-seo/importancia-de-la-arquitectura-de-una-pagina-web-en-el-seo/',
     },
 
     {
       referencia:
-        'Eniun. (s.f.). <em>Mapas conceptuales, mapas de navegación y sitemaps</em>. Eniun. ',
+        'Eniun. (s.f.). Mapas conceptuales, mapas de navegación y sitemaps. Eniun. ',
       link: 'https://www.eniun.com/mapas-conceptuales-navegacion-sitemaps/ ',
     },
 
     {
-      referencia: 'Idital. (2020). <em>Arquitectura página web</em>. Idital. ',
+      referencia: 'Idital. (2020). Arquitectura página <em>web</em>. Idital. ',
       link: 'https://idital.com/diccionario-seo/arquitectura-pagina-web/',
     },
 
     {
       referencia:
-        'Programadorclic. (s.f.). <em>Arquitectura en capas del patrón de arquitectura de software</em>. Programadorclic. ',
+        'Programadorclic. (s.f.). Arquitectura en capas del patrón de arquitectura de <em>software</em>. Programadorclic. ',
       link: 'https://programmerclick.com/article/338572330/',
     },
 
     {
       referencia:
-        'Reynoso, C. B. (2004). Introducción a la Arquitectura de <em>Software</em>. <em>Universidad de Buenos Aires</em>, 33. ',
+        'Reynoso, C. B. (2004). Introducción a la Arquitectura de <em>Software</em>. Universidad de Buenos Aires, 33. ',
       link:
         'http://cic.javerianacali.edu.co/wiki/lib/exe/fetch.php?media=materias:introarq.pdf',
     },
 
     {
       referencia:
-        'Tovar Casallas, A. (2016). <em>Arquitectura de <em>software</em> para la gestión del proceso de validación de núcleos familiares</em>. udistrital. ',
+        'Tovar Casallas, A. (2016). Arquitectura de <em>software</em> para la gestión del proceso de validación de núcleos familiares. udistrital. ',
       link:
         'https://repository.udistrital.edu.co/bitstream/handle/11349/5184/TovarCasallasAlvaro2016.pdf;jsessionid=3AF46842DF4FDE64884BA906E3AFA903?sequence=1',
     },
@@ -242,38 +242,38 @@ export default {
   ],
   complementario: [
     {
-      texto: 'IBM. (2006). Concepto: <em>Arquitectura de software</em>. Cgrw.',
+      texto: 'IBM. (2006). Concepto: Arquitectura de <em>software</em>. Cgrw.',
       tipo: 'Documento',
       link:
         'https://cgrw01.cgr.go.cr/rup/RUP.es/SmallProjects/core.base_rup/guidances/concepts/software_architecture_4269A354.html',
     },
     {
       texto:
-        'Luque, R. (2020). <em>Cómo crear una arquitectura web óptima para SEO</em>. Seoalive.com.',
+        'Luque, R. (2020). Cómo crear una arquitectura <em>web</em> óptima para SEO. Seoalive.com.',
       tipo: 'Artículo',
       link: 'https://seoalive.com/arquitectura-web/',
     },
     {
       texto:
-        'Publisuites. (2020). <em>Arquitectura web: Cómo organizar bien los contenidos de tu web</em>. [Video]. YouTube. ',
+        'Publisuites. (2020). Arquitectura <em>web: Cómo organizar bien los contenidos de tu <em>web</em>. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/VSXdCHSFHXM',
     },
     {
       texto:
-        'Cuesta, D. (2019). <em>Arquitectura Web, Estructura vertical, horizontal y mixta</em>. [Video]. YouTube. ',
+        'Cuesta, D. (2019). Arquitectura <em>Web</em>, Estructura vertical, horizontal y mixta. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/BxZFa9EK028',
     },
     {
       texto:
-        'Fernández, A. (2021). <em>Tipos de arquitectura web y eficiencia para SEO</em>. Blog.',
+        'Fernández, A. (2021). Tipos de arquitectura <em>web</em> y eficiencia para SEO. Blog.',
       tipo: 'Documento',
       link: 'https://albertofdez.com/blog/seo-on-page/tipos-arquitectura-web',
     },
     {
       texto:
-        'Rodríguez, A. (2020). <em>¿Cuáles son lenguajes de programación web más usados en Internet?</em> Godaddy.',
+        'Rodríguez, A. (2020). ¿Cuáles son lenguajes de programación <em>web</em> más usados en Internet? Godaddy.',
       tipo: 'Documento',
       link:
         'https://es.godaddy.com/blog/cuales-son-lenguajes-de-programacion-web-mas-usados-en-internet',
