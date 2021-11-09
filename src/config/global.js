@@ -125,11 +125,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -255,7 +250,7 @@ export default {
     },
     {
       texto:
-        'Publisuites. (2020). Arquitectura <em>web: Cómo organizar bien los contenidos de tu <em>web</em>. [Video]. YouTube. ',
+        'Publisuites. (2020). Arquitectura <em>web</em>: Cómo organizar bien los contenidos de tu <em>web</em>. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/VSXdCHSFHXM',
     },
