@@ -183,7 +183,7 @@
 
     p.mb-5(data-aos="flip-up") En el proceso del diseño y desarrollo de un sitio #[i web], es importante tener presente los siguientes aspectos: 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
+    AcordionAA.mb-5.acordion(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
       .row.justify-content-center(titulo="Realizar una planificación adecuada:")
         p Es importante tener claro cuál es el objetivo y que se quiere construir antes de iniciar. Un producto #[i software] puede tener muchas utilidades y según las especificaciones de los requisitos de #[i software] habrá una u otra estructura que se acople mejor a la necesidad. Teniendo en cuenta características como el objetivo (#[i target]), la información a presentar, las palabras clave, formulario de acceso, recursos multimedia, gama de colores, tipografía, entre otros. 
 
@@ -361,8 +361,12 @@
 </template>
 
 <script>
+import AcordionAA from '../components/AcordionAA'
 export default {
   name: 'Tema2',
+  components: {
+    AcordionAA,
+  },
   data: () => ({
     // variables de vue
   }),

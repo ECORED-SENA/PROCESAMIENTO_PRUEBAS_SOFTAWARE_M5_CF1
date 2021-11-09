@@ -18,7 +18,7 @@
 
     .row.align-items-end.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="slide-left") 
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
+        AcordionAA.mb-5.acordion(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
           .row.justify-content-center(titulo="Protocolos de comunicación de red:")
             p TCP/IP (tcp, que indica protocolo de transmisión de datos e ip, protocolo de internet) y HTTP, son los protocolos encargados de establecer la comunicación y llevar a de un punto a otro paquete básicos de datos. Se consideran los más importantes dado que estos permiten establecer una conexión entre los equipos que están inmersos en la red. 
             p HTTP, POP o SMTP, son otros protocolos usados en internet, los cuales se usan a diario, los cuales permiten navegar por la red, escuchar en línea videos o música o enviar correos electrónicos. 
@@ -46,7 +46,7 @@
       .col-lg-6.mb-4.mb-lg-0(data-aos="slide-right") 
         img.img-a(src='@/assets/curso/tema_2/img_24.png', alt='Texto que describa la imagen')
       .col-lg-6.mb-4.mb-lg-0(data-aos="slide-left") 
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
+        AcordionAA.mb-5.acordion(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
           .row.justify-content-center(titulo="Contenidos de utilidad:")
             p El tema y elementos establecidos en el sitio #[i web] deben estar acordes al usuario final, dado que de no ser la información coherente con el objetivo (#[i target]) este abandonara rápidamente el sitio. 
           .row.justify-content-center(titulo="Debe ser intuitivo:")
@@ -66,8 +66,12 @@
 </template>
 
 <script>
+import AcordionAA from '../components/AcordionAA'
 export default {
   name: 'Tema3',
+  components: {
+    AcordionAA,
+  },
   data: () => ({
     // variables de vue
   }),

@@ -334,7 +334,7 @@
 
     
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
+    AcordionAA.mb-5.acordion(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
       .row.justify-content-center(titulo="Patrones creacionales")
         p.mb-5 Estos patrones corresponden a los que solucionan problemas de creación de instancias.  Consisten en encapsular y abstraer dicha creación, entre ellos se pueden nombrar:
         .col-md-6.mb-4.mb-md-0
@@ -454,11 +454,11 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
+import AcordionAA from '../components/AcordionAA'
 export default {
   name: 'Tema1',
   components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
+    AcordionAA,
   },
   data: () => ({
     // variables de vue
