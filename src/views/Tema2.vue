@@ -33,10 +33,10 @@
             p En esta figura se puede observar la representación de la estructura de navegación de un sitio #[i web], el cual refleja las interconexiones de las páginas para poder realizar una interacción adecuada. 
         .row.align-items-center.justify-content-center
           .col-md-8.mb-4.mb-md-0
-            h4.mb-3 Ejemplo de página Sofia Plus
+            h4.mb-4.mt-4 Ejemplo de página Sofia Plus
             figure.mb-3
               img.img-a(src='@/assets/curso/tema_1/img_38.svg', alt='Texto que describa la imagen')
-            p En este ejemplo de búsqueda en el motor de búsqueda de Google, donde se puede observar que el sitio fue indexado y muestra la información inmersa en su metadata. 
+            p.mb-5 En este ejemplo de búsqueda en el motor de búsqueda de Google, donde se puede observar que el sitio fue indexado y muestra la información inmersa en su metadata. 
 
     separador
     #t_2_1.titulo-segundo(data-aos="flip-up").mb-4
@@ -129,10 +129,10 @@
         p.mb-0 Un ejemplo claro de este tipo de arquitectura se puede presentar las páginas #[i web] de las tiendas #[i online], en la siguiente grafica puede visualizar este tipo de arquitectura.
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 4] #[br] Arquitectura vertical
-    figure.mb-5(data-aos="flip-up") 
-      img.img-a.mb-4(src='@/assets/curso/tema_2/img_4.png', alt='Texto que describa la imagen')
-      .row
-        .col-lg-4
+    .row.justify-content-center
+      .col-lg-10
+        figure.mb-5(data-aos="flip-up") 
+          img.img-a.mb-4.tal_img(src='@/assets/curso/tema_2/img_4.png',  alt='Texto que describa la imagen')
           figcaption Nota. Adaptado de Idital (2020) 
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-up")
@@ -140,10 +140,8 @@
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 5] #[br] Estructura horizontal
     figure.mb-5(data-aos="flip-up") 
-      img.img-a(src='@/assets/curso/tema_2/img_5.png', alt='Texto que describa la imagen')
-      .row.mt-4
-        .col-lg-4
-          figcaption Nota. Adaptado de Idital (2020)
+      img.img-a.mb-4(src='@/assets/curso/tema_2/img_5.png', alt='Texto que describa la imagen')
+      figcaption Nota. Adaptado de Idital (2020)
 
     p.mb-5(data-aos="flip-up") Para este tipo de arquitectura se debe aplicar la regla de los tres clics, basada en la forma que los usuarios utilizan las páginas #[i web], lo que permite ayudar al desarrollador sitios #[i webs] más intuitivos y con estructuras lógicas jerárquicas; aplicar esta regla se considera cómo una buena práctica en el diseño #[i web].
  
@@ -173,9 +171,7 @@
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 6] #[br] Mapa de navegación
     figure.mb-5(data-aos="flip-up") 
       img.img-a.mb-4(src='@/assets/curso/tema_2/img_9.svg', alt='Texto que describa la imagen')
-      .row
-        .col-lg-4
-          figcaption Nota. Adaptado de Eniun (s.f)
+      figcaption Nota. Adaptado de Eniun (s.f)
 
     separador
     #t_2_4.titulo-segundo(data-aos="flip-up").mb-4
@@ -184,7 +180,7 @@
     p.mb-5(data-aos="flip-up") En el proceso del diseño y desarrollo de un sitio #[i web], es importante tener presente los siguientes aspectos: 
 
     AcordionAA.mb-5.acordion(tipo="a" clase-tarjeta="tarjeta bg_05")(data-aos="flip-up")
-      .row.justify-content-center(titulo="Realizar una planificación adecuada:")
+      .row.justify-content-center(titulo="Realizar una planificación adecuada")
         p Es importante tener claro cuál es el objetivo y que se quiere construir antes de iniciar. Un producto #[i software] puede tener muchas utilidades y según las especificaciones de los requisitos de #[i software] habrá una u otra estructura que se acople mejor a la necesidad. Teniendo en cuenta características como el objetivo (#[i target]), la información a presentar, las palabras clave, formulario de acceso, recursos multimedia, gama de colores, tipografía, entre otros. 
 
         p Algunas categorizaciones:
@@ -204,25 +200,25 @@
           li(data-aos="slide-left") 
             i.fas.fa-check
             p.mb-0 Porfolios / Pagina <em> web</em> personal 
-      .row.justify-content-center(titulo="Establece el dominio y selecciona el hosting:")
+      .row.justify-content-center(titulo="Establece el dominio y selecciona el hosting")
         p Sin estos dos elementos es muy poco probable que tu producto #[i software] #[i web] pueda estar en línea, dado que el #[i hosting] es el espacio donde se aloja el producto y todos los recursos que lo conforman, en pocas palabras es el espacio en el cual está desplegado el producto. Dependiendo de la complejidad del proyecto se podrá escoger un #[i hosting] básico u otro más complejo que dé respuesta a las necesidades de infraestructura. 
 
         p Mientras, el dominio es el nombre que asignamos a la #[i web] este también es conocido como DNS (#[i Domain Name Server]) por sus siglas en inglés y su función consiste en traducir la dirección IP para encontrarla fácilmente en internet. Es importante que el nombre del dominio sea una insignia del sitio #[i web], dado que será un identificador para que los usuarios tengan mayor recordación. Algunos ejemplos de dominio son ‘google.com’, ‘facebook.com’, ‘gmail.com’, ‘instagram.com’, ‘gov.com’, entre otros. 
-      .row.justify-content-center(titulo="Elige el lenguaje de programación para el desarrollo de tu sitio <em>web</em>:")
+      .row.justify-content-center(titulo="Elige el lenguaje de programación para el desarrollo de tu sitio <em>web</em>")
         p Si tu sitio #[i web] es un sistema de información a la medida, lo más probable es que el desarrollo se realice desde cero, por eso es importante identificar cual es la arquitectura de aplicación más apropiada para la solución, identificar los pro y contra del uso de uno u otro lenguaje y de ser necesario explorar un #[i framework] que se adapte a la necesidad. 
 
         p Después de realizar la identificación de la arquitectura de aplicación, se debe seleccionar un lenguaje de programación, explorar los posibles #[i frameworks], comenzar la instalación del entorno de desarrollo, lo que incluye instalar los sdks (#[i Software Development Kit]) necesarios, instalar un servidor de aplicaciones, seleccionar un motor de base de datos para almacenar la información requerida, instalar el IDE y #[i plugins], configurar una herramienta el control de las versiones de código y comenzar a codificar la solución.
 
         p Si se identifica que la necesidad es genérica y que en el mercado se cuenta con herramientas que permitan construir un sitio #[i web] por medio de un CMS (#[i Content Management System]), los pasos descritos previamente no serán necesarios y el enfoque estará en escoger bien qué componentes usar para iniciar el sitio #[i web].
-      .row.justify-content-center(titulo="Elige el CMS idóneo para tu página <em>web</em> y realiza la instalación: ")
+      .row.justify-content-center(titulo="Elige el CMS idóneo para tu página <em>web</em> y realiza la instalación ")
         p Estas herramientas de diseño “en tres clics”, se encuentran una serie de gestores de contenidos que permiten crear páginas #[i webs] desde cero con buenos resultados, entre ellos se puede destacar WordPress como una de las mejores opciones para crear una página #[i web].
 
         p Drupal y magneto son CMS, reconocidos y potentes con los cuales se pueden crear sitios #[i web]. Otro ejemplo son Prestashop o Shopify que están enfocados en la creación de tiendas #[i online]. Un CMS bastante usado es WordPress, ya que es un gestor sencillo al momento de implementar los componentes #[i web] con una amplia documentación y comunidad.
 
         p Un valor agregado de los CMS, es que cuentan con una comunidad de desarrolladores que construyen #[i plugins] y componentes para diferentes necesidades, con lo cual el propietario del sitio solo es ir al panel de control y añadir el componente que desea para comenzar a agregar nuevas funcionalidades a su sitio #[i web]. 
-      .row.justify-content-center(titulo="Establece la estructura <em>web</em>:")
+      .row.justify-content-center(titulo="Establece la estructura <em>web</em>")
         p En este apartado se hace referencia a la estructuración, distribución y organización de los elementos que compondrán la estructura visual del componente #[i web], de la cual se crea la diagramación del sitio y se establece como verá la información el usuario, también se incluye la relación de las diferentes páginas entre sí, cuáles serán las superiores, cuales tendrán dependencias de otras, cuáles serán públicas, cuáles requerirán de un inicio de sesión, cuáles tendrán su representación en la parte superior (header) o en la parte inferior (footer). Al hablar de diseño #[i web], no solo se hace referencia a la parte visual, dado que la arquitectura interna también es importante y dentro de esa arquitectura se puede tener una arquitectura específica por el #[i front-end], por el #[i back-end] y una genérica de sistema. 
-      .row.justify-content-center(titulo="Establece la estructura <em>web</em>:")
+      .row.justify-content-center(titulo="Define un diseño para el sitio <em>web</em>")
         p En este punto es requerido definir varios elementos que están relacionados con las plantillas #[i web], es importante tener como referencia el tipo de información que se refleja y el tipo de usuario que tendrá acceso a la información. Imagina que estás diseñando un producto #[i software] para una escuela donde se orientan clases a niños de primero hasta quinto de primaria, donde las edades oscilan entre los 7 a 12 años, el requisito es que se construya una aplicación #[i web] que por medio de juegos y se pueda tener un recurso didáctico adicional. 
 
         p Por lo cual jugar con colores llamativos, letra grande, tipografía animada, muchas imágenes hará que los niños olviden que están estudiando y se enfoquen en aprender jugando, pero si al contrario viras ese diseño a sitios empresariales orientado a personas mayores, posiblemente no se le sacará el mayor provecho. 
@@ -235,7 +231,7 @@
 
     .row.bg10.px-5.py-3.mb-3
       .col-lg-12
-        p.mb-4(data-aos="flip-up") En la actualidad, hay una serie de lenguajes que se usan en diferentes frentes o áreas de la programación; por ejemplo, para desarrollar front-end existe JavaScript en conjunto con HTML5 y Css3, para el desarrollo Mobile dependiendo si es iOS se usa Swift, y en su contraparte Android se usa Java o Kotlin, en el desarrollo back-end podemos encontrar lenguajes como Java, PHP, Python, C#, C++. 
+        p.mb-4(data-aos="flip-up") En la actualidad, hay una serie de lenguajes que se usan en diferentes frentes o áreas de la programación; por ejemplo, para desarrollar #[i front-end] existe JavaScript en conjunto con HTML5 y Css3, para el desarrollo Mobile dependiendo si es iOS se usa Swift, y en su contraparte Android se usa Java o Kotlin, en el desarrollo #[i back-end] podemos encontrar lenguajes como Java, PHP, Python, C#, C++. 
 
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="slide-left") 

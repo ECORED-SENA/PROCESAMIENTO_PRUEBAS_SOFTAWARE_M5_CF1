@@ -22,14 +22,12 @@
 
     .bloque-texto-b.color-secundario.mb-5(data-aos="flip-up")
       .bloque-texto-b__texto
-        p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto #[em software], pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el #[em core] de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de streaming, la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
+        p Las propiedades de calidad y la arquitectura son fundamentales para orientar el desarrollo de un producto #[em software], pues a su vez permiten establecer un cronograma acertado de las tareas a implementar por el equipo de desarrollo, los diseños arquitectónicos que se definen para un proyecto en específico se pueden reutilizar, sin importar el #[em core] de negocio al que pertenezcan; en otras palabras no importa si el sistema es diferente, si inicialmente era un sistema bancario y el otro una plataforma de #[em streaming], la arquitectura se podrá aprovechar en los diferentes modelos de negocio. 
 
     p.BorTit.mb-5(data-aos="flip-up") #[strong Figura 1] #[br] Representación de la arquitectura por capas
     figure.mb-5(data-aos="flip-up") 
       img.img-a.mb-4(src='@/assets/curso/tema_1/img_2.svg', alt='Texto que describa la imagen')
-      .row
-        .col-lg-4
-          figcaption Nota. Adaptada de Programadorclic (s.f.)
+      figcaption Nota. Adaptada de Programadorclic (s.f.)
 
     p.mb-5(data-aos="flip-up")
       strong En la anterior imagen se puede observar el ejemplo de una arquitectura con 5 capas, en la cual cada capa tiene una finalidad específica en la aplicación, las cuales se describen a continuación: 
@@ -146,14 +144,12 @@
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
-            h4.text-center.mb-5 Representación de una Arquitectura Monolítica:
+            h4.text-center.mb-5 Representación de una Arquitectura Monolítica
             img.img-a.mb-3(src='@/assets/curso/tema_1/img_13.svg', alt='Texto que describa la imagen')
-            .row
-              .col-lg-4
-                  figcaption.mb-4 Nota. Adaptada de Blancarte (2020)
+            figcaption.mb-4 Nota. Adaptada de Blancarte (2020)
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
-      h3.mb-5 Arquitectura orientada a servicios (SOA): 
+      h3.mb-5 Arquitectura orientada a servicios (SOA) 
       .tarjeta.bg_04.p-4.mb-5
         SlyderA
           .row.align-items-center.justify-content-center
@@ -176,10 +172,10 @@
                 img.img-a(src='@/assets/curso/tema_1/img_16.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
             h4.text-center.mb-5 Representación de arquitectura orientada a servicios (SOA)
-            img.img-a.mb-4(src='@/assets/curso/tema_1/img_17.svg', alt='Texto que describa la imagen')
+            img.img-a.mb-5(src='@/assets/curso/tema_1/img_17.svg', alt='Texto que describa la imagen')
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
-      h3.mb-5 Arquitectura de microservicios (MSI): 
+      h3.mb-5 Arquitectura de microservicios (MSI) 
       .tarjeta.bg_04.p-4.mb-5
         SlyderA
           .row.align-items-center.justify-content-center
@@ -201,11 +197,9 @@
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_20.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
-            h4.text-center.mb-5 Representación de arquitectura orientada a servicios (SOA)
+            h4.text-center.mb-5 Representación de Arquitectura de Microservicios (MSI)
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_21.svg', alt='Texto que describa la imagen')
-            .row
-              .col-lg-4
-                figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
+            figcaption.mb-3 Nota. Adaptado de Blancarte (2018).
 
             p.mb-4 Como se refleja en la figura, el contenedor 1, 2, 3, n, representan los microservicios (aplicaciones pequeñas), en las cuales se contienen una serie de servicios, estos se pueden orquestar entre sí y ser liberados directamente a un cliente, que puede ser un sitio #[i web], una aplicación móvil o el #[i backend] de otro producto #[i software].  
 
@@ -216,12 +210,10 @@
     p.BorTit(data-aos="flip-up") #[strong Figura 2] #[br]  Arquitectura monolítica vs arquitectura orientada a microservicios
     figure.mb-5(data-aos="flip-up")
       img.img-a.mb-3(src='@/assets/curso/tema_1/img_22.svg', alt='Texto que describa la imagen')
-      .row
-        .col-lg-4
-          figcaption Nota. Adaptado de Decide Soluciones (2019)
+      figcaption Nota. Adaptado de Decide Soluciones (2019)
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
-      h3.mb-5 Arquitectura orientada a eventos (EDA):
+      h3.mb-5 Arquitectura orientada a eventos (EDA)
       .tarjeta.bg_04.p-4.mb-5
         SlyderA
           .row.align-items-center.justify-content-center
@@ -260,16 +252,14 @@
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
-            h4.text-center.mb-5 Representación de Arquitectura Orientada a Eventos (EDA):
+            h4.text-center.mb-5 Representación de Arquitectura Orientada a Eventos (EDA)
             img.img-a.mb-2(src='@/assets/curso/tema_1/img_28.svg', alt='Texto que describa la imagen')
-            .row
-              .col-lg-4
-                figcaption.mb-3 Nota. Adaptado de Tovar Casallas (2016)
+            figcaption.mb-3 Nota. Adaptado de Tovar Casallas (2016)
 
-            p En la figura se pueden observar los diferentes productores, los cuales emiten eventos que son distribuidos por un canal, que a su vez son enviados a los suscriptores/consumidores que estén atentos al tópico del evento.
+            p.mb-5 En la figura se pueden observar los diferentes productores, los cuales emiten eventos que son distribuidos por un canal, que a su vez son enviados a los suscriptores/consumidores que estén atentos al tópico del evento.
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
-      h3.mb-5 Arquitectura cliente-servidor: 
+      h3.mb-5 Arquitectura cliente-servidor
       .tarjeta.bg_04.p-4.mb-5
         SlyderA
           .row.align-items-center.justify-content-center
@@ -285,12 +275,11 @@
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_30.png', alt='Texto que describa la imagen')
           .row.align-items-center.justify-content-center
-            h4.text-center.mb-5.mt-3 Representación de Arquitectura cliente-servidor:
-            img.img-a.mb-3(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
-            .row.mb-3
-              .col-lg-4
-                figcaption.mt-3 Adaptado de CursosGratis (2021)
-            p La separación entre cliente y servidor es del tipo lógico, donde el servidor no se ejecuta necesariamente en una sola máquina o ambiente, ni necesariamente es un solo programa.
+            h4.text-center.mb-5.mt-3 Representación de Arquitectura cliente-servidor
+            figure.mb-4
+              img.img-a.mb-3(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
+              figcaption.mt-3 Adaptado de CursosGratis (2021)
+            p.mb-5 La separación entre cliente y servidor es del tipo lógico, donde el servidor no se ejecuta necesariamente en una sola máquina o ambiente, ni necesariamente es un solo programa.
 
     separador
     #t_1_2.titulo-segundo(data-aos="flip-up").mb-4
