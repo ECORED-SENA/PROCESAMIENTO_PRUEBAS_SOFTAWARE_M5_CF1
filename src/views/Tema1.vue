@@ -121,7 +121,7 @@
  
 
     .bg_01.p-5.mb-5(data-aos="flip-up")
-      h3.mb-5 Arquitectura monolítica: 
+      h3.mb-5 Arquitectura monolítica 
 
       .tarjeta.bg_04.p-4.mb-5
         SlyderA

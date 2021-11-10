@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5 Le invitamos es a revisar el siguiente video para que usted comprenda algunas indicaciones iniciales del proceso de aprendizaje y los elementos de abordaje acerca de la caracterización de la estructura de una aplicación, teniendo en cuenta el entorno de desarrollo:
+    p.mb-5 Le invitamos a revisar el siguiente video para que comprenda algunas indicaciones iniciales del proceso de aprendizaje y los elementos de abordaje acerca de la caracterización de la estructura de una aplicación, teniendo en cuenta el entorno de desarrollo:
     
     figure.mb-5
       .video
